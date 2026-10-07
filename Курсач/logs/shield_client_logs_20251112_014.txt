@@ -1,0 +1,8 @@
+{"Timestamp":"2025-11-12T22:15:13.7170129+03:00","Level":"Debug","MessageTemplate":"Resolving main component from host.","RenderedMessage":"Resolving main component from host."}
+{"Timestamp":"2025-11-12T22:15:14.1322592+03:00","Level":"Information","MessageTemplate":"Looking for ByteHide Shield configuration files...","RenderedMessage":"Looking for ByteHide Shield configuration files..."}
+{"Timestamp":"2025-11-12T22:15:14.2329082+03:00","Level":"Information","MessageTemplate":"Configuration 'Кинолюксия' was found and imported.","RenderedMessage":"Configuration 'Кинолюксия' was found and imported."}
+{"Timestamp":"2025-11-12T22:15:14.2334280+03:00","Level":"Information","MessageTemplate":"Skipping Shield because 'Enabled' is set to false.","RenderedMessage":"Skipping Shield because 'Enabled' is set to false."}
+{"Timestamp":"2025-11-12T22:40:13.2157977+03:00","Level":"Debug","MessageTemplate":"Resolving main component from host.","RenderedMessage":"Resolving main component from host."}
+{"Timestamp":"2025-11-12T22:40:14.2836283+03:00","Level":"Information","MessageTemplate":"Looking for ByteHide Shield configuration files...","RenderedMessage":"Looking for ByteHide Shield configuration files..."}
+{"Timestamp":"2025-11-12T22:40:14.4738116+03:00","Level":"Information","MessageTemplate":"Configuration 'Кинолюксия' was found and imported.","RenderedMessage":"Configuration 'Кинолюксия' was found and imported."}
+{"Timestamp":"2025-11-12T22:40:14.4738116+03:00","Level":"Information","MessageTemplate":"Skipping Shield because 'Enabled' is set to false.","RenderedMessage":"Skipping Shield because 'Enabled' is set to false."}

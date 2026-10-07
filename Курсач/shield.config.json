@@ -1,0 +1,24 @@
+{
+  "Name": "Кинолюксия",
+  "Preset": "custom",
+  "ProjectToken": "bh_NcygRtednYTjRwR0IHPRiWVzktNoPL5v3A",
+  "ProtectionSecret": "Gtanin",
+  "Enabled": "False",
+  "RunConfiguration": "*",
+  "Protections": {
+    "anti_ildasm": null,
+    "anti_dump": null,
+    "constants_protection": null,
+    "rename": {
+      "mode": "letters",
+      "rename_arguments": true,
+      "rename_pdb": true,
+      "rename_enums": true,
+      "force": true,
+      "rename_namespaces": true
+    },
+    "anti_debug": null,
+    "resources": null
+  },
+  "Actions": {}
+}

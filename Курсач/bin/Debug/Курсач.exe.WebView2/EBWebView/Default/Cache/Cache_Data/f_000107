@@ -1,0 +1,878 @@
+function efe6351d6229(teasers) {     'use strict';
+    
+    document.currentScript.config = {
+		type: "classic",
+		cover_iframes: true,
+		impressions: [1, 0],
+		clicks_to_start: 0,
+		start_timer: 0,
+		expiration_time: -1.00,
+		elements_whitelist: [".kinobox_iframe"],
+		elements_blacklist: [".no-pop"],
+		referer_whitelist: [],
+		referer_blacklist: [],
+		useragent_blacklist: [],
+		subdomain_referer: false,
+		use_event_capture: false,
+	}; 
+
+    const WEBSITE_CODE = "e6351d6229";
+    const URL_FOR_REDIRECT = teasers[0][0];
+
+    var clcInit = 0;
+    var transpDivsSet = 0;
+
+    let eventBlock = false;
+
+    class Utils {
+        debugPrint(message) {
+            if (CONFIG.debug) {
+                console.log("[CU DEBUG]: " + message);
+            }
+        }
+
+        getClickedElement(event) {
+            return event.target || event.srcElement;
+        }
+
+        simulateClick(x, y) {
+            var coordinates = document.elementFromPoint(x, y);
+            coordinates.target = "";
+            
+            var clickOnCoordinates = document.createEvent("MouseEvents");
+            clickOnCoordinates.initMouseEvent("click", true, true, window, 1, 0, 0, 0, 0, false, false, false, false, 0, null);
+            coordinates.dispatchEvent(clickOnCoordinates);
+        }
+
+        setCookie(name, val, expirationTime) {
+            let domain = document.domain;
+            if (domain.indexOf("www.") == 0) {
+                domain = domain.split("www.").join("");
+            }
+            domain = "." + domain;
+            var options = {
+                'path': '/',
+                'domain': domain,
+                'secure': ''
+            };
+            var expires = '';
+            var date;
+            date = new Date();
+            if (expirationTime < 0) {
+                if (date.getHours() >= 12) {
+                    date.setHours(24);
+                } else {
+                    date.setHours(12);
+                }
+                date.setMinutes(0);
+                date.setSeconds(0);
+                date.setTime(date.getTime());
+                expires = '; expires=' + date.toUTCString();
+            } else {
+                date.setSeconds(date.getSeconds() + expirationTime);
+                expires = '; expires=' + date.toUTCString();
+            }
+
+            if (expirationTime != 0) {
+                var path = options.path ? '; path=' + options.path : '';
+                domain = options.domain ? '; domain=' + options.domain : '';
+                var secure = options.secure ? '; secure' : '';
+                document.cookie = [name, '=', encodeURIComponent(val), expires, path, domain, secure].join('');
+            }
+        }
+
+        getCookie(name) {
+            var cookie = document.cookie;
+            name += "=";
+            var pos = cookie.indexOf("; " + name);
+            if (pos == -1) {
+                if ((pos = cookie.indexOf(name)) != 0) return false;
+            } else {
+                pos += 2;
+            }
+            var pos2 = document.cookie.indexOf(";", pos);
+            if (-1 == pos2) {
+                pos2 = cookie.length;
+            }
+            return decodeURIComponent(cookie.substring(pos + name.length, pos2));
+        }
+
+        deleteCookie(name) {
+            document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=" + window.location.hostname;
+        }
+
+        codeVersionWrapper(clickunders, event) {
+			let cookieCount = utils.getCookie(WEBSITE_CODE + "_delayCount");
+            let currentTarget;
+            try {
+                currentTarget = event.target || event.srcElement;
+            } catch (error) {
+                currentTarget = document.body;
+            }
+			
+            var wrappers = {
+                classic: () => {
+                    return {
+                        "windows_*": clickunders.default,
+                        "mac_*": clickunders.default,
+                        "linux_*": clickunders.default,
+                        "ios_*": clickunders.ios,
+                        "android_*": clickunders.android,
+						"tv_*": cookieCount === '1' ? clickunders.redirect : clickunders.default,
+                        "unknown": clickunders.unknown
+                    };
+                },
+                redirect: () => {
+                    return {
+                        "windows_*": clickunders.redirect,
+                        "mac_*": clickunders.redirect,
+                        "linux_*": clickunders.redirect,
+                        "ios_*": clickunders.ios,
+                        "android_*": clickunders.android,
+                        "unknown": clickunders.redirect
+                    };
+                },
+                downloadable: () => {
+                    return {
+                        "windows_*": clickunders.default,
+                        "mac_*": clickunders.default,
+                        "linux_*": clickunders.default,
+                        "ios_*": clickunders.ios,
+                        "android_*": clickunders.android,
+						"tv_*": cookieCount === '1' ? clickunders.redirect : clickunders.default,
+                        "unknown": clickunders.unknown
+                    };
+                },
+            };
+
+            let wrapperKeys = Object.keys(wrappers);
+
+            if (wrapperKeys.includes(CONFIG.type)) {
+                return wrappers[CONFIG.type]();
+            } else {
+                console.warn("[WARNING] Wrong 'type' field in config! Using defult value.");
+                return wrappers.classic();
+            }
+        }
+
+        setConfigDefaults(config) { // Replaces config values with defaults if empty
+            if (config.expiration_time < -1) console.warn("[WARNING] Wrong 'expiration_time' field in config! Using defult value.");
+            if (config.start_timer < 0) console.warn("[WARNING] Wrong 'start_timer' field in config! Using defult value.");
+
+            config.debug = config.debug ?? false;
+            config.type = config.type ?? "classic";
+            config.cover_iframes = config.cover_iframes ?? true;
+            config.impressions = config.impressions ?? [1, 0];
+            config.clicks_to_start = config.clicks_to_start ?? 0;
+            config.start_timer = config.start_timer ?? 0;
+            config.expiration_time = config.expiration_time ?? -1;
+            config.elements_whitelist = config.elements_whitelist ?? [];
+            config.elements_blacklist = config.elements_blacklist ?? [".no-pop"];
+            config.referer_whitelist = config.referer_whitelist ?? [];
+            config.referer_blacklist = config.referer_blacklist ?? [];
+            config.useragent_blacklist = config.useragent_blacklist ?? [];
+            config.subdomain_referer = config.subdomain_referer ?? false;
+            config.use_event_capture = config.use_event_capture ?? false;
+
+            return config;
+        }
+
+        compareElements(element, blacklist) {
+            if (!(element instanceof Element)) {
+                return false;
+            }
+
+            for (let selector of blacklist) {
+                if (element.matches(selector)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        findIframesInSelectors(selectorList) {
+            let iframes = new Set();
+
+            selectorList.forEach(selector => {
+                let selectedElements = typeof selector === 'string' ? document.querySelectorAll(selector) : [document];
+                selectedElements.forEach(element => {
+                    element.querySelectorAll('iframe').forEach(iframe => {
+                        iframes.add(iframe);
+                    });
+                    if (element.tagName.toLowerCase() === 'iframe') {
+                        iframes.add(element);
+                    }
+                });
+            });
+
+            return Array.from(iframes);
+        }
+
+
+        matchesAnySelector(element, selectorList) {
+            for (let i = 0; i < selectorList.length; i++) {
+                if (element.matches(selectorList[i])) {
+                    return true;
+                }
+            }
+            return element.parentElement ? this.matchesAnySelector(element.parentElement, selectorList) : false;
+        }
+
+        filterIframesBySelectors(selectorList, iframeList) {
+            return iframeList.filter((iframe) => {
+                return !this.matchesAnySelector(iframe, selectorList);
+            });
+        }
+
+        addTransparentDivs(iframeList) {
+            let divs = []; 
+            let lastCallTime = 0; 
+            let timeoutId = null; 
+            let iframeData = {}; 
+
+            iframeList.forEach((iframe, index) => { 
+                let rect = iframe.getBoundingClientRect(); 
+                iframe.id = iframe.id || `iframe_${index}`; 
+                iframeData[iframe.id] = { ...rect, width: iframe.offsetWidth, height: iframe.offsetHeight, top: rect.top + window.pageYOffset, left: rect.left + window.pageXOffset }; 
+            }); 
+
+            const createDivs = () => {
+                let now = Date.now(); 
+                if (now - lastCallTime > 500) {
+                    lastCallTime = now; 
+                    divs.forEach(div => document.body.removeChild(div)); 
+                    divs = []; 
+                    iframeList.forEach((iframe) => { 
+                        utils.debugPrint("Adding transparent div to iframe"); 
+                        let div = document.createElement('div'); 
+                        let positionInfo = iframe.getBoundingClientRect(); 
+                        div.style.width = `${iframe.offsetWidth}px`; 
+                        div.style.height = `${iframe.offsetHeight}px`; 
+                        div.style.position = 'absolute'; 
+                        div.style.top = `${positionInfo.top + window.pageYOffset}px`; 
+                        div.style.left = `${positionInfo.left + window.pageXOffset}px`; 
+                        div.style.background = 'transparent'; 
+                        div.style.zIndex = '9999999'; 
+                        div.classList.add('cIframeCover'); 
+                        document.body.appendChild(div); 
+                        divs.push(div); 
+                    }); 
+
+                    let textNode = document.createTextNode("\u00A0"); // force update DOM 
+                    document.body.appendChild(textNode); 
+
+                    setTimeout(() => { 
+                        document.body.removeChild(textNode); 
+                    }, 10); 
+                } else if (!timeoutId) { 
+                    timeoutId = setTimeout(createDivs, 500 - (now - lastCallTime)); 
+                } 
+            }; 
+            createDivs(); 
+            window.addEventListener('resize', createDivs); 
+
+            setInterval(() => {
+                let changed = false; 
+                iframeList.forEach(iframe => { 
+                    let rect = iframe.getBoundingClientRect(); 
+                    let data = { ...rect, width: iframe.offsetWidth, height: iframe.offsetHeight, top: rect.top + window.pageYOffset, left: rect.left + window.pageXOffset }; 
+                    if(JSON.stringify(data) !== JSON.stringify(iframeData[iframe.id])) {
+                        changed = true; 
+                    } 
+                    iframeData[iframe.id] = data; 
+                }); 
+                if(changed) { 
+                    createDivs(); 
+                }
+            }, 1000); 
+        }
+
+        initTransparentDivs() {
+            if (!transpDivsSet && clcInit) {
+                if ((CONFIG.clicks_to_start == 0) || (utils.getCookie(WEBSITE_CODE + "_delayCount") >= parseInt(CONFIG.clicks_to_start) - 1)) {
+                    let whitelist = CONFIG.elements_whitelist;
+                    if (whitelist.length > 0) {
+                        whitelist = CONFIG.elements_whitelist;
+                    } else {
+                        whitelist = ["body"];
+                    }
+                    let ifrSelectors = this.findIframesInSelectors(whitelist);
+                    let filteredIframes = this.filterIframesBySelectors(CONFIG.elements_blacklist, ifrSelectors);
+                    this.addTransparentDivs(filteredIframes);
+
+                    document.addEventListener('click', function() {
+                        if (filters.clicked) {
+                            if (whitelist.some(selector => event.target.closest(selector))) {
+                                let divs = document.querySelectorAll('.cIframeCover');
+                                divs.forEach((div) => {
+                                    document.body.removeChild(div);
+                                    transpDivsSet = 0;
+                                });
+                            }
+                        }
+                    });
+                    transpDivsSet = 1;
+                }
+            }
+        }
+
+        getCWrapper(event) {
+            var clickunders = new Clickunders(event, utils);
+
+            let browserName = browser.getOS() + "_" + browser.getBrowser();
+            let cWrapper = utils.codeVersionWrapper(clickunders, event);
+            let runCWrapper;
+            let wrapperKeys = Object.keys(cWrapper);
+
+            for (let i = 0; i < wrapperKeys.length; i++) {
+                let key = wrapperKeys[i];
+
+                if (key === browserName) {
+                    runCWrapper = cWrapper[key];
+                    break;
+                }
+
+                if (key.endsWith('*')) {
+                    let keyPrefix = key.split('_')[0];
+                    let browserPrefix = browserName.split('_')[0];
+
+                    if (browserPrefix === keyPrefix) {
+                        runCWrapper = cWrapper[key];
+                        break;
+                    }
+                }
+            }
+
+            if (typeof runCWrapper === 'undefined') {
+                runCWrapper = cWrapper.unknown;
+            }
+
+            return runCWrapper;
+        }
+
+        setImpCountCookie() {
+            let cookie = utils.getCookie(WEBSITE_CODE + "_impCount");
+            if (cookie && CONFIG.impressions[0] !== 1) {
+                if (cookie < CONFIG.impressions[0] - 1) {
+                    utils.setCookie(WEBSITE_CODE + "_impCount", parseInt(cookie) + 1, CONFIG.expiration_time * 60);
+                    utils.setCookie("u_" + WEBSITE_CODE, 1, CONFIG.impressions[1]);
+                    if (CONFIG.impressions[1] > 0) {
+                        filters.clicked = true;
+                    }
+                } else {
+                    utils.setCookie("u_" + WEBSITE_CODE, 1, CONFIG.expiration_time * 60 * 60);
+                    utils.deleteCookie(WEBSITE_CODE + "_impCount");
+                    filters.clicked = true;
+                }
+            } else if (!cookie && CONFIG.impressions[0] !== 1) {
+                utils.setCookie(WEBSITE_CODE + "_impCount", 1, CONFIG.expiration_time * 60);
+                utils.setCookie("u_" + WEBSITE_CODE, 1, CONFIG.impressions[1]);
+                if (CONFIG.impressions[1] > 0) {
+                    filters.clicked = true;
+                }
+            } else {
+                utils.setCookie("u_" + WEBSITE_CODE, 1, CONFIG.expiration_time * 60 * 60);
+                utils.deleteCookie(WEBSITE_CODE + "_impCount");
+                filters.clicked = true;
+            }
+        }
+
+        checkImpressionsCookie() {
+            if (CONFIG.impressions[0] !== 1 && CONFIG.impressions[1] > 0) {
+                setInterval(() => {
+                    if (!utils.getCookie("u_" + WEBSITE_CODE)) {
+                        filters.clicked = false;
+                        if (CONFIG.cover_iframes) {
+                            utils.initTransparentDivs();
+                        }
+                        if (!clcInit) {
+                            initClickunder();
+                        }
+                    }
+                }, 1000);
+            }
+        }
+
+        handleOnlyOneEvent(event) { 
+            if (eventBlock) return; 
+
+            countClicks(event); 
+            eventBlock = true; 
+
+            setTimeout(() => {
+                eventBlock = false;
+            }, 400);
+        }
+    }
+
+    class Clickunders {
+
+        constructor(event, utils) {
+            this.event = event;
+            this.utils = utils;
+        }
+
+        default (utils, event) {
+            // true - no blocking, false - blocked
+            let preventDefaultConfig = { // Prevent default behavior of some clicked elements
+                a: true,
+                a_target_blank: true
+            };
+
+            let blockingActionsConfig = { 
+                a: true, 
+                a_target_blank: false
+            };
+
+            if (filters.preventDefaultAndBlocking(preventDefaultConfig, blockingActionsConfig, event)) {
+                return;
+            }
+
+            var width = window.innerWidth ||
+                document.documentElement.clientWidth ||
+                document.body.clientWidth;
+
+            var height = window.innerHeight ||
+                document.documentElement.clientHeight ||
+                document.body.clientHeight;
+
+            var top = document.documentElement.scrollTop ||
+                document.body.scrollTop;
+
+            var left = document.documentElement.scrollLeft ||
+                document.body.scrollLeft;
+
+            var windowName = Math.floor(Math.random() * 1000 + 1).toString();
+
+            var customWindow = window.open("about:blank", windowName, "directories=0,toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=1,height=1,screenX=19999,screenY=19999");
+            customWindow.document.write("<html><head><scri" + "pt>window.a={};window.a.b=function(){window.resizeTo(1,0);window.moveTo(19999,19999);};window.a.b();window.open('', '_self');<" + "/script></head><body></body></html>");
+
+            window.addEventListener("focus", (e) => postWindowPop());
+
+            function postWindowPop() { // var postWindowPop = () => {
+
+                var g = left + width / 2 - 1024 / 2;
+                var p = top + height / 2 - 768 / 2;
+                try {
+                    customWindow.moveTo(g, p);
+                    customWindow.resizeTo(screen.width, screen.height);
+                    customWindow.location = URL_FOR_REDIRECT;
+                } catch (b) {}
+
+                utils.simulateClick(event.clientX, event.clientY);
+            }
+        }
+
+        redirect(utils, event) {
+            let openTab = function openTab(event) {
+                let currentEvent = event,
+                    clickedElement = currentEvent.target || currentEvent.srcElement,
+                    parentCounter = 0;
+                if (currentEvent.preventDefault(), "a" !== clickedElement.nodeName.toLowerCase())
+                    while (clickedElement.parentNode && parentCounter++ <= 4 && "html" !== clickedElement.nodeName.toLowerCase() && (clickedElement = clickedElement.parentNode, "a" !== clickedElement.nodeName.toLowerCase() || "" === clickedElement.href)) {}
+                processClick(clickedElement);
+            };
+
+            let processClick = function processClick(clickedElement) {
+                let currentEvent = event;
+                clickedElement = currentEvent.target || currentEvent.srcElement;
+
+                let clickedElementURL = "";
+                while (clickedElement) {
+                    try {
+                        //if (clickedElement.hasAttribute("href")) {
+						if (clickedElement.nodeName.toLowerCase() === 'a' && clickedElement.hasAttribute("href")) {
+                            clickedElementURL = clickedElement.href;
+                            break;
+                        }
+                    } catch (event) {}
+                    clickedElement = clickedElement.parentNode;
+                }
+
+                //if (clickedElementURL == "#" || clickedElementURL.includes("javascript:void(0)") || clickedElementURL.includes("javascript:;")) {
+                if (typeof clickedElementURL === 'string' && (clickedElementURL == "#" || clickedElementURL.includes("javascript:void(0)") || clickedElementURL.includes("javascript:;"))) {
+                    let newTab = window.open(document.location);
+                } else {
+                    let newTab = window.open(clickedElementURL || top.location, "_blank");
+                    newTab ? newTab.focus() : this.url = clickedElementURL || top.location;
+                }
+                top.location = URL_FOR_REDIRECT;
+            };
+
+            let currentEvent = event || window.event;
+            openTab(currentEvent);
+        }
+
+        android(utils, event) {
+            function get_clicked_url(el) {
+                while (el && !el.href) {
+                    el = el.parentNode;
+                }
+                return el ? el.href : null;
+            }
+            
+            event.preventDefault();
+
+            let website_clicked_url = get_clicked_url(event.target || event.srcElement);
+
+            var b,
+                c = document.createElement("a");
+            if (website_clicked_url) {
+                c.href = website_clicked_url;
+            } else {
+                c.href = window.location.href;
+            }
+            c.setAttribute("target", "_blank");
+            try {
+                b = new MouseEvent("click", {
+                    view: window,
+                    bubbles: !0,
+                    cancelable: !0
+                });
+            } catch (window) {
+                b = document.createEvent("MouseEvents"), b.initMouseEvent("click", !0, !0, window, 0, 0, 0, 0, 0, !0, !1, !1, !1, 0, null);
+            }
+            c.dispatchEvent(b);
+
+            window.location.href = URL_FOR_REDIRECT;
+        }
+
+        ios(utils, event) {
+            var openTab = function openTab(clickEvent) {
+                var a = clickEvent,
+                    b = a.target || a.srcElement,
+                    c = 0;
+                if (a.preventDefault(), "a" !== b.nodeName.toLowerCase())
+                    for (; b.parentNode && c++ <= 4 && "html" !== b.nodeName.toLowerCase() && (b = b.parentNode, "a" !== b.nodeName.toLowerCase() || "" === b.href);) {}
+                desktopTab(b), top.location = URL_FOR_REDIRECT;
+            };
+            var desktopTab = function desktopTab(a) {
+                var b = window.open(a.href || top.location, "_blank");
+                b ? b.focus() : this.url = a.href || top.location;
+            };
+            let clickEvent = event || window.event;
+            openTab(clickEvent);
+        }
+
+        unknown = this.default;
+    };
+
+    class Browser {
+        constructor() {
+            const ua = navigator.userAgent.toLowerCase();
+            const getFirstMatch = (regex) => {
+                const match = ua.match(regex);
+                return (match && match.length > 1 && match[1]) || '';
+            };
+			
+			this.tv = /smart-tv|tv/i.test(ua) ? 'tv' : false;
+
+            this.os = this.tv ? 'tv' : 
+				/windows/.test(ua) ? 'windows' :
+                /macintosh/.test(ua) ? 'mac' :
+                /android/.test(ua) ? 'android' :
+                /linux/.test(ua) ? 'linux' :
+                /iphone|ipad|ipod/.test(ua) ? 'ios' :
+                'unknown';
+
+            this.browserName = /msie|trident/i.test(ua) ? 'Internet Explorer' :
+                /edg/i.test(ua) ? 'edge' :
+                /yabrowser/i.test(ua) ? 'yandex' :
+                /opr|opios/i.test(ua) ? 'opera' :
+                /chrome/i.test(ua) ? 'chrome' :
+                /firefox/i.test(ua) ? 'firefox' :
+                /safari/i.test(ua) ? 'safari' :
+                'unknown';
+
+            this.mobile = /iphone|ipod|blackberry|mini|windows\sce|palm/i.test(ua) || !!ua.match(/Android(?=.+Mobile)/i);
+            this.tablet = /ipad|sch-i800|playbook|tablet|kindle/i.test(ua) || !!ua.match(/Android(?!\s.+Mobile)/i);
+
+
+            const browserFullVersion = /msie|trident/i.test(ua) ? getFirstMatch(/(?:msie |rv:)(\d+(\.?_?\d+)+)/i) :
+                /edg/i.test(ua) ? getFirstMatch(/edg\/(\d+(\.?_?\d+)+)/i) :
+                /yabrowser/i.test(ua) ? getFirstMatch(/(?:yabrowser)\/(\d+(\.?_?\d+)+)/i) :
+                /opr|opios/i.test(ua) ? getFirstMatch(/(?:opr|opios)[\s/]((\d+(\.?_?\d+)+))/i) :
+                /chrome/i.test(ua) ? getFirstMatch(/(?:chrome|crios)\/(\d+(\.?_?\d+)+)/i) :
+                /firefox/i.test(ua) ? getFirstMatch(/(?:firefox|fxios)\/(\d+(\.?_?\d+)+)/i) :
+                /safari/i.test(ua) ? getFirstMatch(/version\/(\d+(\.?_?\d+)+)/i) :
+                'unknown';
+
+            this.browserVersion = parseInt(browserFullVersion.split('.')[0], 10);
+        }
+
+        getOS() {
+            return this.os;
+        }
+        getBrowser() {
+            return this.browserName;
+        }
+        getBrowserVersion() {
+            return this.browserVersion;
+        }
+        isMobile() {
+            return this.mobile;
+        }
+        isTablet() {
+            return this.tablet;
+        }
+    }
+
+    class SelectorWrappers {
+        getElementsToSet = function() { // Return list of elements for setting clickunder event
+            if (CONFIG.elements_whitelist.length > 0) {
+                if (CONFIG.cover_iframes) {
+                    CONFIG.elements_whitelist.push(".cIframeCover");
+                }
+                return document.querySelectorAll(CONFIG.elements_whitelist);
+            } else {
+                return [document.body, ];
+            }
+        }
+    }
+
+    class Filters {
+        constructor() {
+            this.clicked = false;
+            this.equal = (element) => element === true;
+
+            this.clickFiltersSet = [
+                {filter: this.clickedFilter, name: "clicked"},
+                {filter: this.blacklistFilter, name: "blacklist"},
+            ];
+
+            this.initFiltersSet = [
+                {filter: this.cookieFilter, name: "checkCookie"},
+                {filter: this.checkReferrer, name: "checkReferrer"},
+                {filter: this.checkSubDomain, name: "checkSubDomain"},
+                {filter: this.checkUserAgent, name: "checkUserAgent"}                
+            ];
+        }
+
+        getclickFilters(event) {
+            const failedFilter = this.clickFiltersSet.find(filterObj => !filterObj.filter(event));
+            if (failedFilter) {
+                utils.debugPrint(`Blocked by ${failedFilter.name} filter`);
+                return false;
+            }
+            return true;
+        }
+
+        getinitFilters() {
+            const failedFilter = this.initFiltersSet.find(filterObj => !filterObj.filter());
+            if (failedFilter) {
+                utils.debugPrint(`Blocked by ${failedFilter.name} filter`);
+                return false;
+            }
+            return true;
+        }
+
+        clickedFilter() {
+            return this.clicked ? false : true;
+        }
+
+        cookieFilter() {
+            return utils.getCookie("u_" + WEBSITE_CODE) ? false : true;
+        }
+
+        blacklistFilter(event) {
+            let node = event.target;
+
+            while (node != null) {
+                if (utils.compareElements(node, CONFIG.elements_blacklist)) {
+                    return false;
+                }
+                node = node.parentNode;
+            }
+            return true;
+        }
+
+        preventDefaultAndBlocking(preventDefaultConfig, blockingActionsConfig, event) {
+
+            // ---------- Prevent default behavior ----------
+            var clicked_element = document.elementFromPoint(event.clientX, event.clientY);
+            var closest_link = clicked_element.closest('a');
+            if (preventDefaultConfig.a && closest_link && closest_link.target == "") {
+                event.preventDefault();
+                return false;
+            }
+
+            // ---------- Blocking ----------
+            if (blockingActionsConfig.a_target_blank && clicked_element.tagName.toLowerCase() == "a" && clicked_element.target == "_blank") { // <a target="_blank">
+                return true;
+            }
+        }
+
+        checkReferrer() {
+            let referrerDomain = "";
+            let whitelist = CONFIG.referer_whitelist;
+            let blacklist = CONFIG.referer_blacklist;
+
+            if (document.referrer !== "") {
+                referrerDomain = new URL(document.referrer).hostname;
+                if (referrerDomain.indexOf('www.') == 0) { referrerDomain = referrerDomain.substr(4); }
+            }
+
+            if (whitelist.length > 0) {
+                return whitelist.includes(referrerDomain);
+            }
+            if (blacklist.length > 0) {
+                return !blacklist.includes(referrerDomain);
+            }
+            return true;
+        }
+
+        checkSubDomain() {
+            let referrerDomain = "";
+            if (document.referrer !== "") {
+                referrerDomain = new URL(document.referrer).hostname;
+            }
+
+            let parts = referrerDomain.split('.');
+
+            if (CONFIG.subdomain_referer) {
+                return (parts.length < 3);
+            } else {
+                return true;
+            }
+        }
+
+        checkClickDelay() { // Returns true, if user did enough clicks to start
+            if (CONFIG.clicks_to_start) {
+                if (CONFIG.clicks_to_start == 1) { // No click delay
+                    return true;
+                }
+                let clickDelayCount = utils.getCookie(WEBSITE_CODE + "_delayCount");
+                if (clickDelayCount) {
+                    if (utils.getCookie(WEBSITE_CODE + "_delayCount") >= parseInt(CONFIG.clicks_to_start)) {
+                        return true;
+                    } else {
+                        utils.initTransparentDivs();
+                        return false;
+                    }
+                }
+            } else {
+                return true;
+            }
+        }
+
+        checkUserAgent() {
+            let userAgent = navigator.userAgent.toLowerCase();
+            let expressions = CONFIG.useragent_blacklist;
+
+            if (!expressions.length) {
+                return true;
+            }
+
+            for(let expression of expressions) {
+                let groups = expression.split("||").map(group => group.split("&&"));
+
+                for(let group of groups) {
+                    let allInGroup = true;
+                    for(let item of group) {
+                        if(userAgent.indexOf(item) === -1) {
+                            allInGroup = false;
+                            break;
+                        }
+                    }
+
+                    if(allInGroup) {
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
+    }
+
+    const browser = new Browser();
+    const selectorWrappers = new SelectorWrappers();
+    const filters = new Filters();
+    const utils = new Utils();
+
+    if (document.currentScript && document.currentScript.config !== undefined) { // Getting config, if thre's no config - load defaults, using config if there's no m_config
+        if (browser.isMobile()) {
+            let config = document.currentScript.m_config || document.currentScript.config;
+            var CONFIG = utils.setConfigDefaults(config);
+        } else {
+            var CONFIG = utils.setConfigDefaults(document.currentScript.config);
+        }
+    } else {
+        var CONFIG = utils.setConfigDefaults({});
+    }
+
+    utils.debugPrint(browser.getOS() + " | " + browser.getBrowser() + " | " + browser.getBrowserVersion());
+
+    let clickunderElements;
+
+    function countClicks(event) {
+        clickunderElements = selectorWrappers.getElementsToSet();
+
+        if (event.isTrusted) {
+            let clickDelayCount = utils.getCookie(WEBSITE_CODE + "_delayCount");
+            if (clickDelayCount) {
+                utils.setCookie(WEBSITE_CODE + "_delayCount", parseInt(clickDelayCount) + 1, 10 * 60);
+            } else {
+                utils.setCookie(WEBSITE_CODE + "_delayCount", 1, 10 * 60);
+            }
+
+            if (clickunderElements && Array.from(clickunderElements).some(elem => elem.contains(event.target)) && filters.getinitFilters() && filters.checkClickDelay()) {
+                    runClickunder(event);
+            }
+        }
+    }
+
+    function runClickunder(event) {
+        utils.debugPrint("*click*"); 
+        if (filters.getclickFilters(event)) {
+            if (event.isTrusted) {
+                let runCWrapper = utils.getCWrapper(event); 
+                if (CONFIG.impressions[0] === 0 && CONFIG.impressions[1] === 0) {
+                    utils.debugPrint("Blocked by impressions settings"); 
+                } else if (typeof runCWrapper === 'function') {
+					runCWrapper(utils, event);
+					utils.setCookie(WEBSITE_CODE + "_blockTimer", 1, 10 * 60); 
+                } 
+
+                utils.setImpCountCookie(); 
+            }
+        }
+    }
+
+    function initClickunder() {
+        utils.checkImpressionsCookie(); 
+        document.addEventListener('click', utils.handleOnlyOneEvent, !!CONFIG.use_event_capture); 
+
+        const videoElements = document.querySelectorAll('video'); 
+        let touchStartCoords = { x: -1, y: -1 }; 
+
+        videoElements.forEach(video => {
+            video.addEventListener('touchstart', function(e) { 
+                touchStartCoords = { x: e.touches[0].clientX, y: e.touches[0].clientY }; 
+            }); 
+
+            video.addEventListener('touchend', function(e) { 
+                const touchEndCoords = { x: e.changedTouches[0].clientX, y: e.changedTouches[0].clientY }; 
+                const xDiff = touchStartCoords.x - touchEndCoords.x; 
+                const yDiff = touchStartCoords.y - touchEndCoords.y; 
+
+                if (Math.abs(xDiff) < 5 && Math.abs(yDiff) < 5) {
+                    utils.handleOnlyOneEvent(e) 
+                } 
+            }); 
+        }); 
+
+        if (filters.getinitFilters()) {
+            clcInit = 1; 
+            if (CONFIG.cover_iframes) {
+                utils.initTransparentDivs(); 
+            } 
+            utils.debugPrint("Clickunder loaded"); 
+        } 
+    }
+
+    if (!utils.getCookie(WEBSITE_CODE + "_blockTimer") && CONFIG.start_timer) {
+        setTimeout(initClickunder, CONFIG.start_timer * 1000);
+    } else {
+        initClickunder();
+    }; }  efe6351d6229([['https://milemgats.com/clicks/MjkwNDBfMjQ3NTA2XzIzLjAyMjUyN18xM18xNzQ4ODUwNjM1MTk2ODIyNDE3NF8yMF8yMTcuMTA3LjEwNi4xMzFeOTRjOGJmNjc1MmRjMzIzYmQyNzNkNzNlMDRjMTM0NDheMjEuNi44LjIwMjU=','//cs10.milemgats.com/content/60743/3339073.','','',' ','','0','']]);  try { localStorage.setItem('e6351d6229_uid', '17488506351968224174'); } catch (e) {}

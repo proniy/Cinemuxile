@@ -1,0 +1,1801 @@
+E:\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+E:\Курсач\Курсач\Курсач\obj\Debug\LoginWindow.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\LoginWindow.g.cs
+E:\Курсач\Курсач\Курсач\obj\Debug\App.g.cs
+E:\Курсач\Курсач\Курсач\obj\Debug\RegistrationWindow.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\RegistrationWindow.g.cs
+E:\Курсач\Курсач\Курсач\obj\Debug\RecoveryWindow.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\RecoveryWindow.g.cs
+E:\Курсач\Курсач\Курсач\obj\Debug\ClientWindow.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\ClientWindow.g.cs
+E:\Курсач\Курсач\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+E:\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+E:\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+E:\Курсач\Курсач\Курсач\obj\Debug\AdminWindow.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\AdminWindow.g.cs
+E:\Курсач\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Npgsql.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Buffers.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Collections.Immutable.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Memory.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Text.Json.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Threading.Channels.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\System.ValueTuple.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Npgsql.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Buffers.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Collections.Immutable.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Memory.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Text.Json.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Threading.Channels.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\System.ValueTuple.xml
+E:\Курсач\Курсач\Курсач\obj\Debug\UserEditWindow.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\VideoEditWindow.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\UserEditWindow.g.cs
+E:\Курсач\Курсач\Курсач\obj\Debug\VideoEditWindow.g.cs
+E:\Курсач\Курсач\Курсач\bin\Debug\Newtonsoft.Json.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Newtonsoft.Json.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Курсач.exe.config
+D:\Курсач\Курсач\Курсач\bin\Debug\Курсач.exe
+D:\Курсач\Курсач\Курсач\bin\Debug\Курсач.pdb
+D:\Курсач\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Newtonsoft.Json.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Npgsql.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Buffers.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Collections.Immutable.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Memory.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Text.Json.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Threading.Channels.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\System.ValueTuple.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Newtonsoft.Json.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Npgsql.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Buffers.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Collections.Immutable.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Memory.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Text.Json.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Threading.Channels.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\System.ValueTuple.xml
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+D:\Курсач\Курсач\Курсач\obj\Debug\AdminWindow.baml
+D:\Курсач\Курсач\Курсач\obj\Debug\ClientWindow.baml
+D:\Курсач\Курсач\Курсач\obj\Debug\LoginWindow.baml
+D:\Курсач\Курсач\Курсач\obj\Debug\RecoveryWindow.baml
+D:\Курсач\Курсач\Курсач\obj\Debug\RegistrationWindow.baml
+D:\Курсач\Курсач\Курсач\obj\Debug\UserEditWindow.baml
+D:\Курсач\Курсач\Курсач\obj\Debug\VideoEditWindow.baml
+D:\Курсач\Курсач\Курсач\obj\Debug\AdminWindow.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\ClientWindow.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\LoginWindow.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\RecoveryWindow.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\RegistrationWindow.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\UserEditWindow.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\VideoEditWindow.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\App.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач_MarkupCompile.cache
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач.g.resources
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.CopyComplete
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач.exe
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач.pdb
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\AdminWindow.baml
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\ClientWindow.baml
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\LoginWindow.baml
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\RecoveryWindow.baml
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\RegistrationWindow.baml
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\UserEditWindow.baml
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\VideoEditWindow.baml
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\WebViewWindow.baml
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\AdminWindow.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\ClientWindow.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\LoginWindow.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\RecoveryWindow.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\RegistrationWindow.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\UserEditWindow.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\VideoEditWindow.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\WebViewWindow.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\App.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач_Content.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач_MarkupCompile.cache
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.g.resources
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Курсач.exe.config
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Курсач.exe
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Курсач.pdb
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\BCrypt.Net-Next.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Newtonsoft.Json.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Npgsql.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Buffers.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Collections.Immutable.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Memory.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Numerics.Vectors.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Text.Json.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Threading.Channels.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.ValueTuple.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\BCrypt.Net-Next.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Newtonsoft.Json.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Npgsql.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Buffers.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Collections.Immutable.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Memory.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Numerics.Vectors.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Text.Json.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Threading.Channels.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\System.ValueTuple.xml
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.csproj.CopyComplete
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.exe
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.pdb
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Курсач.exe.config
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Курсач.exe
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Курсач.pdb
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\BCrypt.Net-Next.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Newtonsoft.Json.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Npgsql.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Buffers.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Collections.Immutable.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Memory.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Numerics.Vectors.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Text.Json.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Threading.Channels.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.ValueTuple.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\BCrypt.Net-Next.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Newtonsoft.Json.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Npgsql.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Buffers.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Collections.Immutable.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Memory.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Numerics.Vectors.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Text.Json.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Threading.Channels.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\System.ValueTuple.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\AdminWindow.baml
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\ClientWindow.baml
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\LoginWindow.baml
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\RecoveryWindow.baml
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\RegistrationWindow.baml
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\ThemeEditorWindow.baml
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\UserEditWindow.baml
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\VideoEditWindow.baml
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\WebViewWindow.baml
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\AdminWindow.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\ClientWindow.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\LoginWindow.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\RecoveryWindow.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\RegistrationWindow.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\UserEditWindow.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\VideoEditWindow.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\WebViewWindow.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\App.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач_Content.g.cs
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач_MarkupCompile.cache
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач_MarkupCompile.lref
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\App.baml
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.g.resources
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.csproj.Up2Date
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.exe
+E:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач.pdb
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\ThemeEditorWindow.baml
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\Курсач_MarkupCompile.lref
+D:\Курсач\Курсач — копия\Курсач\obj\Debug\App.baml
+D:\Курсач\Курсач\Курсач\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+D:\Курсач\Курсач\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач\Курсач\obj\Debug\ThemeEditorWindow.baml
+D:\Курсач\Курсач\Курсач\obj\Debug\WebViewWindow.baml
+D:\Курсач\Курсач\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\WebViewWindow.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач_Content.g.cs
+D:\Курсач\Курсач\Курсач\obj\Debug\Курсач_MarkupCompile.lref
+D:\Курсач\Курсач\Курсач\obj\Debug\App.baml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Курсач.exe.config
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Курсач.exe
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Курсач.pdb
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\BCrypt.Net-Next.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Newtonsoft.Json.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Npgsql.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Buffers.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Collections.Immutable.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Memory.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Numerics.Vectors.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Json.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Channels.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.ValueTuple.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\BCrypt.Net-Next.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Newtonsoft.Json.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Npgsql.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Buffers.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Collections.Immutable.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Memory.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Numerics.Vectors.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Json.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Channels.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.ValueTuple.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\AdminWindow.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\ClientWindow.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\LoginWindow.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\RecoveryWindow.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\RegistrationWindow.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\SupportRequestWindow.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\ThemeEditorWindow.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\UserEditWindow.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\VideoEditWindow.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\WebViewWindow.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\AdminWindow.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\ClientWindow.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\LoginWindow.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\RecoveryWindow.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\RegistrationWindow.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\SupportRequestWindow.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\UserEditWindow.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\VideoEditWindow.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\WebViewWindow.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\App.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач_Content.g.cs
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач_MarkupCompile.cache
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач_MarkupCompile.lref
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\App.baml
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.g.resources
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.CopyComplete
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.exe
+D:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.pdb
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Курсач.exe.config
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Курсач.exe
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Курсач.pdb
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\BCrypt.Net-Next.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Newtonsoft.Json.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Npgsql.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Buffers.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Collections.Immutable.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Memory.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Numerics.Vectors.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Json.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Channels.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.ValueTuple.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\BCrypt.Net-Next.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Newtonsoft.Json.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Npgsql.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Buffers.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Collections.Immutable.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Memory.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Numerics.Vectors.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Json.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Channels.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\System.ValueTuple.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\AdminWindow.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\ClientWindow.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\LoginWindow.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\RecoveryWindow.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\RegistrationWindow.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\SupportRequestWindow.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\ThemeEditorWindow.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\UserEditWindow.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\VideoEditWindow.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\WebViewWindow.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\AdminWindow.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\ClientWindow.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\LoginWindow.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\RecoveryWindow.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\RegistrationWindow.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\SupportRequestWindow.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\UserEditWindow.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\VideoEditWindow.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\WebViewWindow.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\App.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач_Content.g.cs
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач_MarkupCompile.cache
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач_MarkupCompile.lref
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\App.baml
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.g.resources
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.Up2Date
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.exe
+E:\Курсач\Курсач — копия (2)\Курсач\obj\Debug\Курсач.pdb
+E:\Курсач\Курсач\Курсач\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+E:\Курсач\Курсач\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\Курсач\Курсач\Курсач\obj\Debug\SupportRequestWindow.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\ThemeEditorWindow.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\WebViewWindow.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\SupportRequestWindow.g.cs
+E:\Курсач\Курсач\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+E:\Курсач\Курсач\Курсач\obj\Debug\WebViewWindow.g.cs
+E:\Курсач\Курсач\Курсач\obj\Debug\App.baml
+E:\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.Up2Date
+E:\Курсач\Курсач\Курсач\bin\Debug\Кинолюксия.exe.config
+E:\Курсач\Курсач\Курсач\bin\Debug\Кинолюксия.exe
+E:\Курсач\Курсач\Курсач\bin\Debug\Кинолюксия.pdb
+E:\Курсач\Курсач\Курсач\obj\Debug\Кинолюксия_Content.g.cs
+E:\Курсач\Курсач\Курсач\obj\Debug\Кинолюксия_MarkupCompile.cache
+E:\Курсач\Курсач\Курсач\obj\Debug\Кинолюксия_MarkupCompile.lref
+E:\Курсач\Курсач\Курсач\obj\Debug\Кинолюксия.g.resources
+E:\Курсач\Курсач\Курсач\obj\Debug\Кинолюксия.exe
+E:\Курсач\Курсач\Курсач\obj\Debug\Кинолюксия.pdb
+D:\all\Курсач\Курсач\obj\Debug\AdminWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\LoginWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\RecoveryWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\RegistrationWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\SupportRequestWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\ThemeEditorWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\UserEditWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\VideoEditWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\WebViewWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\AdminWindow.g.cs
+D:\all\Курсач\Курсач\obj\Debug\LoginWindow.g.cs
+D:\all\Курсач\Курсач\obj\Debug\RecoveryWindow.g.cs
+D:\all\Курсач\Курсач\obj\Debug\RegistrationWindow.g.cs
+D:\all\Курсач\Курсач\obj\Debug\SupportRequestWindow.g.cs
+D:\all\Курсач\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+D:\all\Курсач\Курсач\obj\Debug\UserEditWindow.g.cs
+D:\all\Курсач\Курсач\obj\Debug\VideoEditWindow.g.cs
+D:\all\Курсач\Курсач\obj\Debug\WebViewWindow.g.cs
+D:\all\Курсач\Курсач\obj\Debug\App.g.cs
+D:\all\Курсач\Курсач\obj\Debug\Кинолюксия_Content.g.cs
+D:\all\Курсач\Курсач\obj\Debug\Кинолюксия_MarkupCompile.cache
+D:\all\Курсач\Курсач\obj\Debug\Кинолюксия_MarkupCompile.lref
+D:\all\Курсач\Курсач\obj\Debug\Кинолюксия.exe
+D:\all\Курсач\Курсач\obj\Debug\Кинолюксия.pdb
+D:\all\Курсач\Курсач\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\all\Курсач\Курсач\obj\Debug\ClientWindow.g.cs
+D:\all\Курсач\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+D:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe.config
+D:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe
+D:\all\Курсач\Курсач\bin\Debug\Кинолюксия.pdb
+D:\all\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.dll
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+D:\all\Курсач\Курсач\bin\Debug\Newtonsoft.Json.dll
+D:\all\Курсач\Курсач\bin\Debug\Npgsql.dll
+D:\all\Курсач\Курсач\bin\Debug\System.Buffers.dll
+D:\all\Курсач\Курсач\bin\Debug\System.Collections.Immutable.dll
+D:\all\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\all\Курсач\Курсач\bin\Debug\System.Memory.dll
+D:\all\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.dll
+D:\all\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\all\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+D:\all\Курсач\Курсач\bin\Debug\System.Text.Json.dll
+D:\all\Курсач\Курсач\bin\Debug\System.Threading.Channels.dll
+D:\all\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\all\Курсач\Курсач\bin\Debug\System.ValueTuple.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+D:\all\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.xml
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+D:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+D:\all\Курсач\Курсач\bin\Debug\Newtonsoft.Json.xml
+D:\all\Курсач\Курсач\bin\Debug\Npgsql.xml
+D:\all\Курсач\Курсач\bin\Debug\System.Buffers.xml
+D:\all\Курсач\Курсач\bin\Debug\System.Collections.Immutable.xml
+D:\all\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\all\Курсач\Курсач\bin\Debug\System.Memory.xml
+D:\all\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.xml
+D:\all\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\all\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+D:\all\Курсач\Курсач\bin\Debug\System.Text.Json.xml
+D:\all\Курсач\Курсач\bin\Debug\System.Threading.Channels.xml
+D:\all\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\all\Курсач\Курсач\bin\Debug\System.ValueTuple.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+D:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+D:\all\Курсач\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\all\Курсач\Курсач\obj\Debug\App.baml
+D:\all\Курсач\Курсач\obj\Debug\ClientWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\Кинолюксия.g.resources
+D:\all\Курсач\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+D:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+D:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+D:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.CopyComplete
+D:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+E:\all\Курсач\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+E:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe.config
+E:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe
+E:\all\Курсач\Курсач\bin\Debug\Кинолюксия.pdb
+E:\all\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.dll
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+E:\all\Курсач\Курсач\bin\Debug\Newtonsoft.Json.dll
+E:\all\Курсач\Курсач\bin\Debug\Npgsql.dll
+E:\all\Курсач\Курсач\bin\Debug\System.Buffers.dll
+E:\all\Курсач\Курсач\bin\Debug\System.Collections.Immutable.dll
+E:\all\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\all\Курсач\Курсач\bin\Debug\System.Memory.dll
+E:\all\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.dll
+E:\all\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\all\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+E:\all\Курсач\Курсач\bin\Debug\System.Text.Json.dll
+E:\all\Курсач\Курсач\bin\Debug\System.Threading.Channels.dll
+E:\all\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\all\Курсач\Курсач\bin\Debug\System.ValueTuple.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+E:\all\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.xml
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+E:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+E:\all\Курсач\Курсач\bin\Debug\Newtonsoft.Json.xml
+E:\all\Курсач\Курсач\bin\Debug\Npgsql.xml
+E:\all\Курсач\Курсач\bin\Debug\System.Buffers.xml
+E:\all\Курсач\Курсач\bin\Debug\System.Collections.Immutable.xml
+E:\all\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\all\Курсач\Курсач\bin\Debug\System.Memory.xml
+E:\all\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.xml
+E:\all\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\all\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+E:\all\Курсач\Курсач\bin\Debug\System.Text.Json.xml
+E:\all\Курсач\Курсач\bin\Debug\System.Threading.Channels.xml
+E:\all\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\all\Курсач\Курсач\bin\Debug\System.ValueTuple.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+E:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+E:\all\Курсач\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+E:\all\Курсач\Курсач\obj\Debug\AdminWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\LoginWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\RecoveryWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\RegistrationWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\SupportRequestWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\ThemeEditorWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\UserEditWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\VideoEditWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\WebViewWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\AdminWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\ClientWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\LoginWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\RecoveryWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\RegistrationWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\SupportRequestWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\UserEditWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\VideoEditWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\WebViewWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\App.g.cs
+E:\all\Курсач\Курсач\obj\Debug\Кинолюксия_Content.g.cs
+E:\all\Курсач\Курсач\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\all\Курсач\Курсач\obj\Debug\Кинолюксия_MarkupCompile.cache
+E:\all\Курсач\Курсач\obj\Debug\Кинолюксия_MarkupCompile.lref
+E:\all\Курсач\Курсач\obj\Debug\App.baml
+E:\all\Курсач\Курсач\obj\Debug\ClientWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\Кинолюксия.g.resources
+E:\all\Курсач\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+E:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+E:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+E:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.Up2Date
+E:\all\Курсач\Курсач\obj\Debug\Кинолюксия.exe
+E:\all\Курсач\Курсач\obj\Debug\Кинолюксия.pdb
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Кинолюксия.exe.config
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Кинолюксия.exe
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Кинолюксия.pdb
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\BCrypt.Net-Next.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Newtonsoft.Json.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Npgsql.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Buffers.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Collections.Immutable.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Memory.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Numerics.Vectors.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Json.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Channels.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.ValueTuple.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\BCrypt.Net-Next.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Newtonsoft.Json.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Npgsql.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Buffers.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Collections.Immutable.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Memory.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Numerics.Vectors.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Text.Json.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Channels.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\System.ValueTuple.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\AdminWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\LoginWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\RecoveryWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\RegistrationWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\SecureInputWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\SupportRequestWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\ThemeEditorWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\UserEditWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\VideoEditWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\WebViewWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\AdminWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\ClientWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\LoginWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\RecoveryWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\RegistrationWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\SecureInputWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\SupportRequestWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\UserEditWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\VideoEditWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\WebViewWindow.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\App.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Кинолюксия_Content.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Кинолюксия_MarkupCompile.cache
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Кинолюксия_MarkupCompile.lref
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\App.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\ClientWindow.baml
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Кинолюксия.g.resources
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Курсач.csproj.Up2Date
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Кинолюксия.exe
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Кинолюксия.pdb
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Кинолюксия.exe.manifest
+E:\all\Курсач — копия (2)\Курсач\bin\Debug\Кинолюксия.application
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Кинолюксия.exe.manifest
+E:\all\Курсач — копия (2)\Курсач\obj\Debug\Кинолюксия.application
+Z:\all\Курсач\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+Z:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe.config
+Z:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe.manifest
+Z:\all\Курсач\Курсач\bin\Debug\Кинолюксия.application
+Z:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe
+Z:\all\Курсач\Курсач\bin\Debug\Кинолюксия.pdb
+Z:\all\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.dll
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+Z:\all\Курсач\Курсач\bin\Debug\Newtonsoft.Json.dll
+Z:\all\Курсач\Курсач\bin\Debug\Npgsql.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.Buffers.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.Collections.Immutable.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.Memory.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.Text.Json.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.Threading.Channels.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+Z:\all\Курсач\Курсач\bin\Debug\System.ValueTuple.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+Z:\all\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.xml
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+Z:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+Z:\all\Курсач\Курсач\bin\Debug\Newtonsoft.Json.xml
+Z:\all\Курсач\Курсач\bin\Debug\Npgsql.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.Buffers.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.Collections.Immutable.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.Memory.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.Text.Json.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.Threading.Channels.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+Z:\all\Курсач\Курсач\bin\Debug\System.ValueTuple.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+Z:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+Z:\all\Курсач\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+Z:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+Z:\all\Курсач\Курсач\obj\Debug\AdminWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\LoginWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\RecoveryWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\RegistrationWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\SecureInputWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\SupportRequestWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\ThemeEditorWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\UserEditWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\VideoEditWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\WebViewWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\AdminWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\ClientWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\LoginWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\RecoveryWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\RegistrationWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\SecureInputWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\SupportRequestWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\UserEditWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\VideoEditWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\WebViewWindow.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\App.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\Кинолюксия_Content.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\all\Курсач\Курсач\obj\Debug\Кинолюксия_MarkupCompile.cache
+Z:\all\Курсач\Курсач\obj\Debug\Кинолюксия_MarkupCompile.lref
+Z:\all\Курсач\Курсач\obj\Debug\App.baml
+Z:\all\Курсач\Курсач\obj\Debug\ClientWindow.baml
+Z:\all\Курсач\Курсач\obj\Debug\Кинолюксия.g.resources
+Z:\all\Курсач\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+Z:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+Z:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+Z:\all\Курсач\Курсач\obj\Debug\Кинолюксия.exe.manifest
+Z:\all\Курсач\Курсач\obj\Debug\Кинолюксия.application
+Z:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.Up2Date
+Z:\all\Курсач\Курсач\obj\Debug\Кинолюксия.exe
+Z:\all\Курсач\Курсач\obj\Debug\Кинолюксия.pdb
+D:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe.manifest
+D:\all\Курсач\Курсач\bin\Debug\Кинолюксия.application
+D:\all\Курсач\Курсач\bin\Debug\PreEmptive.Attributes.dll
+D:\all\Курсач\Курсач\bin\Debug\PreEmptive.Attributes.xml
+D:\all\Курсач\Курсач\obj\Debug\SecureInputWindow.baml
+D:\all\Курсач\Курсач\obj\Debug\SecureInputWindow.g.cs
+D:\all\Курсач\Курсач\obj\Debug\Кинолюксия.TrustInfo.xml
+D:\all\Курсач\Курсач\obj\Debug\Кинолюксия.exe.manifest
+D:\all\Курсач\Курсач\obj\Debug\Кинолюксия.application
+G:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+G:\all\Курсач\Курсач\obj\Debug\AdminWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\LoginWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\RecoveryWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\RegistrationWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\SecureInputWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\SupportRequestWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\ThemeEditorWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\UserEditWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\VideoEditWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\WebViewWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\AdminWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\ClientWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\LoginWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\RecoveryWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\RegistrationWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\SecureInputWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\SupportRequestWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\ThemeEditorWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\UserEditWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\VideoEditWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\WebViewWindow.g.cs
+G:\all\Курсач\Курсач\obj\Debug\App.g.cs
+G:\all\Курсач\Курсач\obj\Debug\Кинолюксия_Content.g.cs
+G:\all\Курсач\Курсач\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\all\Курсач\Курсач\obj\Debug\Кинолюксия_MarkupCompile.cache
+G:\all\Курсач\Курсач\obj\Debug\Кинолюксия_MarkupCompile.lref
+G:\all\Курсач\Курсач\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+G:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe.config
+G:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe.manifest
+G:\all\Курсач\Курсач\bin\Debug\Кинолюксия.application
+G:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe
+G:\all\Курсач\Курсач\bin\Debug\Кинолюксия.pdb
+G:\all\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.dll
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.dll
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.dll
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+G:\all\Курсач\Курсач\bin\Debug\Newtonsoft.Json.dll
+G:\all\Курсач\Курсач\bin\Debug\Npgsql.dll
+G:\all\Курсач\Курсач\bin\Debug\PreEmptive.Attributes.dll
+G:\all\Курсач\Курсач\bin\Debug\System.Buffers.dll
+G:\all\Курсач\Курсач\bin\Debug\System.Collections.Immutable.dll
+G:\all\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+G:\all\Курсач\Курсач\bin\Debug\System.Memory.dll
+G:\all\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.dll
+G:\all\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\all\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.dll
+G:\all\Курсач\Курсач\bin\Debug\System.Text.Json.dll
+G:\all\Курсач\Курсач\bin\Debug\System.Threading.Channels.dll
+G:\all\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.dll
+G:\all\Курсач\Курсач\bin\Debug\System.ValueTuple.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+G:\all\Курсач\Курсач\bin\Debug\BCrypt.Net-Next.xml
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Bcl.HashCode.xml
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Core.xml
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+G:\all\Курсач\Курсач\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+G:\all\Курсач\Курсач\bin\Debug\Newtonsoft.Json.xml
+G:\all\Курсач\Курсач\bin\Debug\Npgsql.xml
+G:\all\Курсач\Курсач\bin\Debug\PreEmptive.Attributes.xml
+G:\all\Курсач\Курсач\bin\Debug\System.Buffers.xml
+G:\all\Курсач\Курсач\bin\Debug\System.Collections.Immutable.xml
+G:\all\Курсач\Курсач\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+G:\all\Курсач\Курсач\bin\Debug\System.Memory.xml
+G:\all\Курсач\Курсач\bin\Debug\System.Numerics.Vectors.xml
+G:\all\Курсач\Курсач\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\all\Курсач\Курсач\bin\Debug\System.Text.Encodings.Web.xml
+G:\all\Курсач\Курсач\bin\Debug\System.Text.Json.xml
+G:\all\Курсач\Курсач\bin\Debug\System.Threading.Channels.xml
+G:\all\Курсач\Курсач\bin\Debug\System.Threading.Tasks.Extensions.xml
+G:\all\Курсач\Курсач\bin\Debug\System.ValueTuple.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Office2007.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Windows10.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Metro.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Office2007.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.DataGrid.Themes.Windows10.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.FluentDesign.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Metro.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Office2007.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.Windows10.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.ListBox.Themes.WMP11.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.FluentDesign.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesign.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.MaterialDesignColors.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Metro.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Office2007.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Themes.Windows10.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.xml
+G:\all\Курсач\Курсач\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.xml
+G:\all\Курсач\Курсач\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+G:\all\Курсач\Курсач\obj\Debug\App.baml
+G:\all\Курсач\Курсач\obj\Debug\ClientWindow.baml
+G:\all\Курсач\Курсач\obj\Debug\Кинолюксия.g.resources
+G:\all\Курсач\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+G:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+G:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+G:\all\Курсач\Курсач\obj\Debug\Кинолюксия.TrustInfo.xml
+G:\all\Курсач\Курсач\obj\Debug\Кинолюксия.exe.manifest
+G:\all\Курсач\Курсач\obj\Debug\Кинолюксия.application
+G:\all\Курсач\Курсач\obj\Debug\Курсач.csproj.Up2Date
+G:\all\Курсач\Курсач\obj\Debug\Кинолюксия.exe
+G:\all\Курсач\Курсач\obj\Debug\Кинолюксия.pdb
+E:\all\Курсач\Курсач\bin\Debug\Кинолюксия.exe.manifest
+E:\all\Курсач\Курсач\bin\Debug\Кинолюксия.application
+E:\all\Курсач\Курсач\bin\Debug\PreEmptive.Attributes.dll
+E:\all\Курсач\Курсач\bin\Debug\PreEmptive.Attributes.xml
+E:\all\Курсач\Курсач\obj\Debug\Кинолюксия.exe.config
+E:\all\Курсач\Курсач\obj\Debug\MoodMovieWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\SecureInputWindow.baml
+E:\all\Курсач\Курсач\obj\Debug\MoodMovieWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\SecureInputWindow.g.cs
+E:\all\Курсач\Курсач\obj\Debug\Кинолюксия.TrustInfo.xml
+E:\all\Курсач\Курсач\obj\Debug\Кинолюксия.exe.manifest
+E:\all\Курсач\Курсач\obj\Debug\Кинолюксия.application

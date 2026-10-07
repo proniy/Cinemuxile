@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Wpf.DataGrid.Themes.MaterialDesign</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Wpf.DataGrid.Themes.MaterialDesignResourceDictionary">
+      <summary>The ResourceDictionary used to theme the DataGrid controls in MaterialDesign.</summary>
+    </member>
+  </members>
+</doc>

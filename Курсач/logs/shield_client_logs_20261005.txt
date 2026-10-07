@@ -1,0 +1,24 @@
+{"Timestamp":"2026-10-05T18:55:45.2222458+03:00","Level":"Debug","MessageTemplate":"Resolving main component from host.","RenderedMessage":"Resolving main component from host."}
+{"Timestamp":"2026-10-05T18:56:06.8593239+03:00","Level":"Error","MessageTemplate":"[CC-391]: Can't get last MSBUILDER version","RenderedMessage":"[CC-391]: Can't get last MSBUILDER version"}
+{"Timestamp":"2026-10-05T18:56:06.8621113+03:00","Level":"Error","MessageTemplate":"[CC-392]: Unable to connect to the remote server","RenderedMessage":"[CC-392]: Unable to connect to the remote server"}
+{"Timestamp":"2026-10-05T18:56:06.8661298+03:00","Level":"Information","MessageTemplate":"Looking for ByteHide Shield configuration files...","RenderedMessage":"Looking for ByteHide Shield configuration files..."}
+{"Timestamp":"2026-10-05T18:56:06.9557088+03:00","Level":"Information","MessageTemplate":"Configuration 'Кинолюксия' was found and imported.","RenderedMessage":"Configuration 'Кинолюксия' was found and imported."}
+{"Timestamp":"2026-10-05T18:56:06.9557088+03:00","Level":"Information","MessageTemplate":"Skipping Shield because 'Enabled' is set to false.","RenderedMessage":"Skipping Shield because 'Enabled' is set to false."}
+{"Timestamp":"2026-10-05T19:04:59.7244093+03:00","Level":"Debug","MessageTemplate":"Resolving main component from host.","RenderedMessage":"Resolving main component from host."}
+{"Timestamp":"2026-10-05T19:05:20.9074416+03:00","Level":"Error","MessageTemplate":"[CC-391]: Can't get last MSBUILDER version","RenderedMessage":"[CC-391]: Can't get last MSBUILDER version"}
+{"Timestamp":"2026-10-05T19:05:20.9074416+03:00","Level":"Error","MessageTemplate":"[CC-392]: Unable to connect to the remote server","RenderedMessage":"[CC-392]: Unable to connect to the remote server"}
+{"Timestamp":"2026-10-05T19:05:20.9074416+03:00","Level":"Information","MessageTemplate":"Looking for ByteHide Shield configuration files...","RenderedMessage":"Looking for ByteHide Shield configuration files..."}
+{"Timestamp":"2026-10-05T19:05:20.9909773+03:00","Level":"Information","MessageTemplate":"Configuration 'Кинолюксия' was found and imported.","RenderedMessage":"Configuration 'Кинолюксия' was found and imported."}
+{"Timestamp":"2026-10-05T19:05:20.9909773+03:00","Level":"Information","MessageTemplate":"Skipping Shield because 'Enabled' is set to false.","RenderedMessage":"Skipping Shield because 'Enabled' is set to false."}
+{"Timestamp":"2026-10-05T19:10:02.1999664+03:00","Level":"Debug","MessageTemplate":"Resolving main component from host.","RenderedMessage":"Resolving main component from host."}
+{"Timestamp":"2026-10-05T19:10:23.3973520+03:00","Level":"Error","MessageTemplate":"[CC-391]: Can't get last MSBUILDER version","RenderedMessage":"[CC-391]: Can't get last MSBUILDER version"}
+{"Timestamp":"2026-10-05T19:10:23.3973520+03:00","Level":"Error","MessageTemplate":"[CC-392]: Unable to connect to the remote server","RenderedMessage":"[CC-392]: Unable to connect to the remote server"}
+{"Timestamp":"2026-10-05T19:10:23.3973520+03:00","Level":"Information","MessageTemplate":"Looking for ByteHide Shield configuration files...","RenderedMessage":"Looking for ByteHide Shield configuration files..."}
+{"Timestamp":"2026-10-05T19:10:23.4763817+03:00","Level":"Information","MessageTemplate":"Configuration 'Кинолюксия' was found and imported.","RenderedMessage":"Configuration 'Кинолюксия' was found and imported."}
+{"Timestamp":"2026-10-05T19:10:23.4763817+03:00","Level":"Information","MessageTemplate":"Skipping Shield because 'Enabled' is set to false.","RenderedMessage":"Skipping Shield because 'Enabled' is set to false."}
+{"Timestamp":"2026-10-05T19:25:26.7531087+03:00","Level":"Debug","MessageTemplate":"Resolving main component from host.","RenderedMessage":"Resolving main component from host."}
+{"Timestamp":"2026-10-05T19:25:48.0513545+03:00","Level":"Error","MessageTemplate":"[CC-391]: Can't get last MSBUILDER version","RenderedMessage":"[CC-391]: Can't get last MSBUILDER version"}
+{"Timestamp":"2026-10-05T19:25:48.0513545+03:00","Level":"Error","MessageTemplate":"[CC-392]: Unable to connect to the remote server","RenderedMessage":"[CC-392]: Unable to connect to the remote server"}
+{"Timestamp":"2026-10-05T19:25:48.0513545+03:00","Level":"Information","MessageTemplate":"Looking for ByteHide Shield configuration files...","RenderedMessage":"Looking for ByteHide Shield configuration files..."}
+{"Timestamp":"2026-10-05T19:25:48.1243533+03:00","Level":"Information","MessageTemplate":"Configuration 'Кинолюксия' was found and imported.","RenderedMessage":"Configuration 'Кинолюксия' was found and imported."}
+{"Timestamp":"2026-10-05T19:25:48.1243533+03:00","Level":"Information","MessageTemplate":"Skipping Shield because 'Enabled' is set to false.","RenderedMessage":"Skipping Shield because 'Enabled' is set to false."}

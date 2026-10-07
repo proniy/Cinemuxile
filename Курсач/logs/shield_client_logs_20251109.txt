@@ -1,0 +1,5 @@
+{"Timestamp":"2025-11-09T21:08:06.9708158+03:00","Level":"Debug","MessageTemplate":"Resolving main component from host.","RenderedMessage":"Resolving main component from host."}
+{"Timestamp":"2025-11-09T21:08:08.0754668+03:00","Level":"Information","MessageTemplate":"Looking for ByteHide Shield configuration files...","RenderedMessage":"Looking for ByteHide Shield configuration files..."}
+{"Timestamp":"2025-11-09T21:08:08.3787815+03:00","Level":"Debug","MessageTemplate":"Configuration file not found in project directory. Checking for global configurations.","RenderedMessage":"Configuration file not found in project directory. Checking for global configurations."}
+{"Timestamp":"2025-11-09T21:08:08.3802826+03:00","Level":"Debug","MessageTemplate":"Looking for 'Курсач' project in global configurations...","RenderedMessage":"Looking for 'Курсач' project in global configurations..."}
+{"Timestamp":"2025-11-09T21:08:08.3844119+03:00","Level":"Error","MessageTemplate":"No valid configuration file found (neither local nor global).","RenderedMessage":"No valid configuration file found (neither local nor global)."}

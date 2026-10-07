@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Wpf.Toolkit.Themes.MaterialDesign</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Wpf.Toolkit.Themes.MaterialDesign.MaterialDesignResourceDictionary">
+      <summary>The ResourceDictionary used to theme the Toolkit controls in MaterialDesign.</summary>
+    </member>
+  </members>
+</doc>

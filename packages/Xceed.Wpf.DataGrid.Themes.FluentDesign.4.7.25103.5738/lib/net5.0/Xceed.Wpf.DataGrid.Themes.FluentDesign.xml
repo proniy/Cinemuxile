@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Wpf.DataGrid.Themes.FluentDesign</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Wpf.DataGrid.Themes.FluentDesignResourceDictionary">
+      <summary>The ResourceDictionary used to theme the DataGrid controls in FluentDesign.</summary>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,350 @@
+﻿<Window x:Class="Курсач.ClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:local="clr-namespace:Курсач" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Медиатека" Height="900" Width="1400"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+
+    <Window.Resources>
+        <!-- Конвертер для видимости текста поиска -->
+        <local:StringToVisibilityConverter x:Key="StringToVisibilityConverter"/>
+
+        <!-- Конвертер для преобразования Color в Brush -->
+        <local:ColorToBrushConverter x:Key="ColorToBrushConverter"/>
+
+        <!-- Стиль для карточек с уменьшенной высотой -->
+        <Style x:Key="ModernCardStyle" TargetType="Border">
+            <Setter Property="Background" Value="#1A1A2E"/>
+            <Setter Property="BorderBrush" Value="#33FFCC"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Margin" Value="8"/>
+            <Setter Property="Width" Value="240"/>
+            <Setter Property="Height" Value="470"/>
+            <Setter Property="CornerRadius" Value="8"/>
+        </Style>
+
+        <!-- Стиль для кнопок -->
+        <Style x:Key="ModernButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#33FFCC"/>
+            <Setter Property="Foreground" Value="#0A0A1F"/>
+            <Setter Property="BorderBrush" Value="#33FFCC"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="12,6"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Стиль для кнопок верхней панели -->
+        <Style x:Key="HeaderButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#33FFCC"/>
+            <Setter Property="BorderBrush" Value="#33FFCC"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Width" Value="40"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Стиль для ComboBox -->
+        <Style x:Key="ModernComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="Background" Value="#1A1A2E"/>
+            <Setter Property="Foreground" Value="#33FFCC"/>
+            <Setter Property="BorderBrush" Value="#33FFCC"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+
+        <!-- Стиль для элементов ComboBox -->
+        <Style x:Key="ComboBoxItemStyle" TargetType="ComboBoxItem">
+            <Setter Property="Background" Value="{Binding BackgroundColor, Converter={StaticResource ColorToBrushConverter}}"/>
+            <Setter Property="Foreground" Value="{Binding TextColor, Converter={StaticResource ColorToBrushConverter}}"/>
+            <Setter Property="BorderBrush" Value="{Binding BorderColor, Converter={StaticResource ColorToBrushConverter}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="8,4"/>
+        </Style>
+
+        <!-- Стили для элементов детальной информации с фиксированными цветами -->
+        <Style x:Key="YearBadgeStyle" TargetType="Border">
+            <Setter Property="Background" Value="#1E3A8A"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="Margin" Value="0,0,12,0"/>
+            <Setter Property="CornerRadius" Value="4"/>
+        </Style>
+
+        <Style x:Key="TypeBadgeStyle" TargetType="Border">
+            <Setter Property="Background" Value="#DC2626"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="Margin" Value="0,0,12,0"/>
+            <Setter Property="CornerRadius" Value="4"/>
+        </Style>
+
+        <Style x:Key="RatingBadgeStyle" TargetType="Border">
+            <Setter Property="Background" Value="#F59E0B"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="CornerRadius" Value="4"/>
+        </Style>
+
+        <Style x:Key="BadgeTextStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+    </Window.Resources>
+
+    <!-- Основной контейнер с градиентным фоном -->
+    <Border x:Name="mainBorder" Background="#0A0A1F" BorderBrush="#33FFCC" BorderThickness="2">
+        <Grid>
+            <!-- Верхняя панель -->
+            <Border x:Name="headerBorder" Background="#0F0F2A" Height="60" VerticalAlignment="Top"
+                    MouseLeftButtonDown="HeaderBorder_MouseLeftButtonDown">
+                <DockPanel Margin="20,0">
+                    <!-- Логотип и название -->
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <TextBlock x:Name="logoTextBlock" Text="🎬" FontSize="24" Margin="0,0,10,0"
+                                   Foreground="#33FFCC"/>
+                        <TextBlock x:Name="titleTextBlock" Text="МЕДИАТЕКА" FontSize="20" FontWeight="Bold" 
+                                   Foreground="#33FFCC" VerticalAlignment="Center"/>
+                    </StackPanel>
+
+                    <!-- Поисковая строка -->
+                    <Border Background="#1A1A2E" Height="36" 
+                            VerticalAlignment="Center" Margin="20,0" Width="400">
+                        <Grid>
+                            <TextBox x:Name="txtFilter" Background="Transparent" BorderThickness="0"
+                                     Foreground="White" Padding="15,8" FontSize="14"
+                                     TextChanged="txtFilter_TextChanged"
+                                     VerticalContentAlignment="Center"/>
+                            <TextBlock x:Name="searchPlaceholderTextBlock" Text="🔍 Поиск фильмов..." Foreground="#666699" 
+                                       Margin="20,0" VerticalAlignment="Center"
+                                       IsHitTestVisible="False"
+                                       Visibility="{Binding Text, ElementName=txtFilter, Converter={StaticResource StringToVisibilityConverter}}"/>
+                        </Grid>
+                    </Border>
+
+                    <!-- Панель управления -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button x:Name="btnMoodMovie" Content="🎭" 
+                                Style="{StaticResource HeaderButtonStyle}"
+                                Click="btnMoodMovie_Click" Margin="0,0,5,0"/>
+                        <ComboBox x:Name="cmbThemes" Width="160" Height="40"
+                                  Style="{StaticResource ModernComboBoxStyle}"
+                                  SelectionChanged="cmbThemes_SelectionChanged"
+                                  Margin="0,0,10,0"
+                                  ItemContainerStyle="{StaticResource ComboBoxItemStyle}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Border Width="15" Height="15" Background="{Binding BackgroundColor, Converter={StaticResource ColorToBrushConverter}}" Margin="0,0,5,0"/>
+                                        <TextBlock Text="{Binding Name}" 
+                                                   Foreground="{Binding TextColor, Converter={StaticResource ColorToBrushConverter}}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+
+                        <Button x:Name="btnToggleTheme" Content="🌙" 
+                                Style="{StaticResource HeaderButtonStyle}"
+                                Click="ToggleTheme_Click" Margin="0,0,5,0"/>
+                        <Button x:Name="btnCreateTheme" Content="🎨" 
+                                Style="{StaticResource HeaderButtonStyle}"
+                                Click="CreateTheme_Click" Margin="0,0,5,0"/>
+                        <Button x:Name="btnSupport" Content="❓" 
+                                Style="{StaticResource HeaderButtonStyle}"
+                                Click="btnSupport_Click" Margin="0,0,5,0"/>
+                        <Button x:Name="btnProfile" Content="👤" 
+                                Style="{StaticResource HeaderButtonStyle}"
+                                Click="btnProfile_Click" Margin="0,0,5,0"/>
+                        <Button x:Name="btnMinimize" Content="_" 
+                                Style="{StaticResource HeaderButtonStyle}"
+                                Click="Minimize_Click" Margin="0,0,5,0"/>
+                        <Button x:Name="btnFullscreen" Content="⛶" 
+                                Style="{StaticResource HeaderButtonStyle}"
+                                Click="Fullscreen_Click" Margin="0,0,5,0"/>
+                        <Button x:Name="btnClose" Content="✕" 
+                                Style="{StaticResource HeaderButtonStyle}"
+                                Click="Close_Click"/>
+                    </StackPanel>
+                </DockPanel>
+            </Border>
+
+            <!-- Основной контент -->
+            <Grid Margin="0,60,0,0" x:Name="mainContentGrid" MouseLeftButtonDown="MainContentGrid_MouseLeftButtonDown">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Сетка фильмов -->
+                <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" Padding="20,20,20,0"
+                              Background="Transparent" MouseLeftButtonDown="ScrollViewer_MouseLeftButtonDown">
+                    <ItemsControl x:Name="itemsControlVideos" BorderThickness="0" Background="Transparent">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <!-- Карточка фильма с уменьшенной высотой -->
+                                <Border x:Name="cardBorder" 
+                                        Style="{StaticResource ModernCardStyle}"
+                                        MouseLeftButtonDown="Card_MouseLeftButtonDown">
+                                    <Border.Effect>
+                                        <DropShadowEffect BlurRadius="20" ShadowDepth="4" Opacity="0.3"/>
+                                    </Border.Effect>
+
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="370"/>
+                                            <RowDefinition Height="180"/>
+                                        </Grid.RowDefinitions>
+
+                                        <!-- Постер -->
+                                        <Border Grid.Row="0">
+                                            <Image Source="{Binding poster_url}" Stretch="UniformToFill"
+                                                   HorizontalAlignment="Center" VerticalAlignment="Top"
+                                                   MaxHeight="360" MaxWidth="288" Margin="3,3,3,0"/>
+                                        </Border>
+
+                                        <!-- Информация о фильме с увеличенным пространством -->
+                                        <StackPanel Grid.Row="1" Margin="10,5" VerticalAlignment="Top">
+                                            <TextBlock x:Name="cardTitle" Text="{Binding title}" FontWeight="Bold" FontSize="14"
+                                                       Foreground="White" MaxHeight="40" TextWrapping="Wrap"
+                                                       TextTrimming="CharacterEllipsis" Margin="0,0,0,3"/>
+                                            <StackPanel Orientation="Horizontal" Margin="0,0,0,3">
+                                                <TextBlock x:Name="cardYear" Text="{Binding release_year}" 
+                                                           Foreground="#CCCCCC" 
+                                                           FontSize="11" Margin="0,0,8,0"/>
+                                                <TextBlock x:Name="cardType" Text="{Binding type}" 
+                                                           Foreground="#33FFCC" 
+                                                           FontSize="11" FontWeight="SemiBold"/>
+                                            </StackPanel>
+                                            <TextBlock x:Name="cardGenres" Text="{Binding genres}" 
+                                                       Foreground="#CCCCCC" 
+                                                       FontSize="11" Margin="0,0,0,3" MaxHeight="60"
+                                                       TextWrapping="Wrap" TextTrimming="CharacterEllipsis"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+
+                <!-- Детальная информация о выбранном фильме -->
+                <Border x:Name="detailBorder" Grid.Row="1" Background="#0F0F2A" 
+                        BorderThickness="1" BorderBrush="#33FFCC"
+                        Visibility="Collapsed"
+                        MouseLeftButtonDown="DetailBorder_MouseLeftButtonDown"
+                        RenderTransformOrigin="0.5,0.5"
+                        Margin="0,0,0,0">
+                    <!-- Добавлен отступ 100px сверху -->
+                    <Border.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform x:Name="detailScaleTransform" ScaleX="0.8" ScaleY="0.8"/>
+                            <TranslateTransform x:Name="detailTranslateTransform" Y="100"/>
+                        </TransformGroup>
+                    </Border.RenderTransform>
+                    <Grid Margin="10,0,10,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="350"/>
+                            <!-- Увеличено на 50 пикселей -->
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Большой постер -->
+                        <Border Grid.Column="0" Margin="0,3,20,0" Width="350" Height="450">
+                            <Image x:Name="imgDetailPoster" Stretch="Uniform"
+                                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                                   MaxHeight="450" MaxWidth="350"/>
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="15" ShadowDepth="5" Opacity="0.5"/>
+                            </Border.Effect>
+                        </Border>
+
+                        <!-- Детальная информация -->
+                        <StackPanel Grid.Column="1">
+                            <TextBlock x:Name="txtDetailTitle" 
+                                       FontSize="28" FontWeight="Bold" Foreground="White" Margin="0,0,0,12"/>
+
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+                                <!-- Используем фиксированные стили для бейджей -->
+                                <Border x:Name="yearBadge" Style="{StaticResource YearBadgeStyle}">
+                                    <TextBlock x:Name="txtDetailYear" Style="{StaticResource BadgeTextStyle}"/>
+                                </Border>
+                                <Border x:Name="typeBadge" Style="{StaticResource TypeBadgeStyle}">
+                                    <TextBlock x:Name="txtDetailType" Style="{StaticResource BadgeTextStyle}"/>
+                                </Border>
+                                <Border x:Name="ratingBadge" Style="{StaticResource RatingBadgeStyle}">
+                                    <TextBlock x:Name="txtDetailRating" Style="{StaticResource BadgeTextStyle}"/>
+                                </Border>
+                            </StackPanel>
+
+                            <TextBlock x:Name="txtDetailGenres"
+                                       Foreground="#33FFCC" FontSize="14" FontWeight="SemiBold" Margin="0,0,0,16"/>
+
+                            <ScrollViewer MaxHeight="150" VerticalScrollBarVisibility="Auto" Margin="0,0,0,20">
+                                <TextBlock x:Name="txtDetailDescription"
+                                           Foreground="#CCCCCC" FontSize="14" TextWrapping="Wrap" LineHeight="20"/>
+                            </ScrollViewer>
+
+                            <!-- Кнопка просмотра на детальной панели -->
+                            <Button x:Name="btnDetailPlay" Content="▶ СМОТРЕТЬ ОНЛАЙН" 
+                                    Style="{StaticResource ModernButtonStyle}"
+                                    HorizontalAlignment="Left" Margin="0,16,0,0" Width="200" Height="40"
+                                    Click="btnPlayInApp_Click">
+                                <Button.Effect>
+                                    <DropShadowEffect BlurRadius="12" ShadowDepth="3" 
+                                                      Opacity="0.6" Color="#33FFCC"/>
+                                </Button.Effect>
+                            </Button>
+                        </StackPanel>
+
+                        <!-- Кнопка закрытия детальной панели -->
+                        <Button x:Name="btnCloseDetail" Content="✕" 
+                                Style="{StaticResource HeaderButtonStyle}"
+                                Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Right"
+                                Width="30" Height="30" FontSize="12"
+                                Click="btnCloseDetail_Click"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

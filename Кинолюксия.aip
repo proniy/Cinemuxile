@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="23.1" version="23.1" Modules="professional" RootPath="." Language="ru" Id="{A7DD9731-9A17-4837-8BDC-A07B1F90B029}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_FINDEXE_TITLE" Value="Выберите установочный пакет для [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="AI_SHORTCUTSREG" Value="0|0|0|0|"/>
+    <ROW Property="AI_UPGRADE" Value="No"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="Эта база данных установщика содержит логику и данные, необходимые для установки [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOMODIFY" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="ARPNOREPAIR" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="AiPreferFastOem" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="Manufacturer" Value="Hogwarts.inc"/>
+    <ROW Property="ProductCode" Value="1049:{41FC8B99-9B07-40C1-980E-E5119F09C845} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Кинолюксия"/>
+    <ROW Property="ProductVersion" Value="1.0.2" Options="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{77441CB3-E33E-49F3-8ED1-6B8F0BC9BFD9}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60Display" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1" DirectoryOptions="3"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="Release_Dir" Directory_Parent="APPDIR" DefaultDir="Release" DirectoryOptions="3"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="StartMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="STARTM~1|StartMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="Themes_Dir" Directory_Parent="Release_Dir" DefaultDir="Themes" DirectoryOptions="3"/>
+    <ROW Directory="app.publish_Dir" Directory_Parent="Release_Dir" DefaultDir="APP~1.PUB|app.publish" DirectoryOptions="3"/>
+    <ROW Directory="csCZ_Dir" Directory_Parent="Release_Dir" DefaultDir="cs-CZ" DirectoryOptions="3"/>
+    <ROW Directory="de_Dir" Directory_Parent="Release_Dir" DefaultDir="de" DirectoryOptions="3"/>
+    <ROW Directory="es_Dir" Directory_Parent="Release_Dir" DefaultDir="es" DirectoryOptions="3"/>
+    <ROW Directory="fr_Dir" Directory_Parent="Release_Dir" DefaultDir="fr" DirectoryOptions="3"/>
+    <ROW Directory="hu_Dir" Directory_Parent="Release_Dir" DefaultDir="hu" DirectoryOptions="3"/>
+    <ROW Directory="it_Dir" Directory_Parent="Release_Dir" DefaultDir="it" DirectoryOptions="3"/>
+    <ROW Directory="jaJP_Dir" Directory_Parent="Release_Dir" DefaultDir="ja-JP" DirectoryOptions="3"/>
+    <ROW Directory="native_1_Dir" Directory_Parent="winx64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_2_Dir" Directory_Parent="winx86_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_Dir" Directory_Parent="winarm64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="nlBE_Dir" Directory_Parent="Release_Dir" DefaultDir="nl-BE" DirectoryOptions="3"/>
+    <ROW Directory="ptBR_Dir" Directory_Parent="Release_Dir" DefaultDir="pt-BR" DirectoryOptions="3"/>
+    <ROW Directory="ro_Dir" Directory_Parent="Release_Dir" DefaultDir="ro" DirectoryOptions="3"/>
+    <ROW Directory="ru_Dir" Directory_Parent="Release_Dir" DefaultDir="ru" DirectoryOptions="3"/>
+    <ROW Directory="runtimes_Dir" Directory_Parent="Release_Dir" DefaultDir="runtimes" DirectoryOptions="3"/>
+    <ROW Directory="sv_Dir" Directory_Parent="Release_Dir" DefaultDir="sv" DirectoryOptions="3"/>
+    <ROW Directory="winarm64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="WIN-AR~1|win-arm64" DirectoryOptions="3"/>
+    <ROW Directory="winx64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win-x64" DirectoryOptions="3"/>
+    <ROW Directory="winx86_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win-x86" DirectoryOptions="3"/>
+    <ROW Directory="zhHans_Dir" Directory_Parent="Release_Dir" DefaultDir="zh-Hans" DirectoryOptions="3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.SideBySideGuidComponent">
+    <ROW Component="APPDIR" Value="{2CAD259C-D940-4655-BA46-F56F5AA9E2E1}"/>
+    <ROW Component="ProductInformation" Value="{D9F7F0E4-35A2-4221-B30E-91A18544EE8D}"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_ExePath" ComponentId="{555F8D78-337C-41FF-B9FD-B97D37938817}" Directory_="APPDIR" Attributes="260" KeyPath="AI_ExePath"/>
+    <ROW Component="AI_SHORTCUTSREG" ComponentId="{E2CA8716-4F68-42AA-8C5F-BC0473A72BC5}" Directory_="APPDIR" Attributes="260" KeyPath="AI_SHORTCUTSREG" Options="1"/>
+    <ROW Component="APPDIR" ComponentId="{EDCD9B5A-4563-43B0-B686-90DE1870CF2B}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="BCrypt.NetNext.dll" ComponentId="{D170197F-8864-4E27-BD2A-00E3D58A2EBE}" Directory_="Release_Dir" Attributes="0" KeyPath="BCrypt.NetNext.dll"/>
+    <ROW Component="BCrypt.NetNext.xml" ComponentId="{1034D9DD-FD10-4FD6-9376-12F41A62CCEB}" Directory_="Release_Dir" Attributes="0" KeyPath="BCrypt.NetNext.xml" Type="0"/>
+    <ROW Component="Microsoft.Bcl.AsyncInterfaces.dll" ComponentId="{C567FFC8-C023-4466-9EAD-9C5E47B72E48}" Directory_="Release_Dir" Attributes="0" KeyPath="Microsoft.Bcl.AsyncInterfaces.dll"/>
+    <ROW Component="Microsoft.Bcl.HashCode.dll" ComponentId="{2DDCA6EC-BAC0-4C33-98AF-7D5847BC073F}" Directory_="Release_Dir" Attributes="0" KeyPath="Microsoft.Bcl.HashCode.dll"/>
+    <ROW Component="Microsoft.Extensions.DependencyInjection.Abstractions.dll" ComponentId="{C789CD86-709A-4A33-AD8F-EAC1F4849282}" Directory_="Release_Dir" Attributes="0" KeyPath="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW Component="Microsoft.Extensions.Logging.Abstractions.dll" ComponentId="{7E42A5BB-1345-46EC-9315-1C95C18F5B9F}" Directory_="Release_Dir" Attributes="0" KeyPath="Microsoft.Extensions.Logging.Abstractions.dll"/>
+    <ROW Component="Microsoft.Web.WebView2.Core.dll" ComponentId="{9263FD61-9A15-4881-8063-7A9F8185E70D}" Directory_="Release_Dir" Attributes="0" KeyPath="Microsoft.Web.WebView2.Core.dll"/>
+    <ROW Component="Microsoft.Web.WebView2.WinForms.dll" ComponentId="{4A69D914-72B0-489E-A644-BC30CFBF9B1A}" Directory_="Release_Dir" Attributes="0" KeyPath="Microsoft.Web.WebView2.WinForms.dll"/>
+    <ROW Component="Microsoft.Web.WebView2.Wpf.dll" ComponentId="{D46DF42A-0CAF-477F-9DE1-BACBF15D6B7F}" Directory_="Release_Dir" Attributes="0" KeyPath="Microsoft.Web.WebView2.Wpf.dll"/>
+    <ROW Component="Newtonsoft.Json.dll" ComponentId="{F2020DDE-060A-4A77-BAB1-2F48CABD83C9}" Directory_="Release_Dir" Attributes="0" KeyPath="Newtonsoft.Json.dll"/>
+    <ROW Component="Npgsql.dll" ComponentId="{7938D1C7-3F89-41E9-B3E5-5A42D8D7C6BB}" Directory_="Release_Dir" Attributes="0" KeyPath="Npgsql.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{4F6687BC-BF54-4147-97F3-5121C43C991B}" Directory_="APPDIR" Attributes="260" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{67CA4ADE-FFFB-4D8F-9420-94DF5D9B947F}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="System.Buffers.dll" ComponentId="{2E557F14-8B7A-4BB2-A454-29B72772D2FB}" Directory_="Release_Dir" Attributes="0" KeyPath="System.Buffers.dll"/>
+    <ROW Component="System.Collections.Immutable.dll" ComponentId="{A7027B18-E34D-4529-BF90-222CB6331649}" Directory_="Release_Dir" Attributes="0" KeyPath="System.Collections.Immutable.dll"/>
+    <ROW Component="System.Diagnostics.DiagnosticSource.dll" ComponentId="{C6F397B5-BF0E-483C-BA22-4A26FE70F231}" Directory_="Release_Dir" Attributes="0" KeyPath="System.Diagnostics.DiagnosticSource.dll"/>
+    <ROW Component="System.Memory.dll" ComponentId="{B167575E-7A8E-4838-83B6-84746D61DC83}" Directory_="Release_Dir" Attributes="0" KeyPath="System.Memory.dll"/>
+    <ROW Component="System.Numerics.Vectors.dll" ComponentId="{33400103-01F5-49A4-B036-7D7B8A38C091}" Directory_="Release_Dir" Attributes="0" KeyPath="System.Numerics.Vectors.dll"/>
+    <ROW Component="System.Runtime.CompilerServices.Unsafe.dll" ComponentId="{86B2704C-EFD5-4A3D-B1AE-DD2D7274089C}" Directory_="Release_Dir" Attributes="0" KeyPath="System.Runtime.CompilerServices.Unsafe.dll"/>
+    <ROW Component="System.Text.Encodings.Web.dll" ComponentId="{D4544605-8974-4322-ABA1-8FDBA313B41B}" Directory_="Release_Dir" Attributes="0" KeyPath="System.Text.Encodings.Web.dll"/>
+    <ROW Component="System.Text.Json.dll" ComponentId="{0F590D60-64BC-410D-9FBC-1AFCD6D86E20}" Directory_="Release_Dir" Attributes="0" KeyPath="System.Text.Json.dll"/>
+    <ROW Component="System.Threading.Channels.dll" ComponentId="{F5CFF375-AE8C-4205-803C-87915EAD35FF}" Directory_="Release_Dir" Attributes="0" KeyPath="System.Threading.Channels.dll"/>
+    <ROW Component="System.Threading.Tasks.Extensions.dll" ComponentId="{DFAA3992-636E-4958-A14E-179C631DD973}" Directory_="Release_Dir" Attributes="0" KeyPath="System.Threading.Tasks.Extensions.dll"/>
+    <ROW Component="System.ValueTuple.dll" ComponentId="{4911BE76-91C5-47B3-80DD-FACA46B73CDD}" Directory_="Release_Dir" Attributes="0" KeyPath="System.ValueTuple.dll"/>
+    <ROW Component="WebView2Loader.dll" ComponentId="{2950BB36-68F0-4363-9A74-43B040EA99E0}" Directory_="native_Dir" Attributes="256" KeyPath="WebView2Loader.dll"/>
+    <ROW Component="WebView2Loader.dll_1" ComponentId="{5E3A14AE-2108-480A-A5C3-66DB0F084DFB}" Directory_="native_1_Dir" Attributes="256" KeyPath="WebView2Loader.dll_1"/>
+    <ROW Component="WebView2Loader.dll_2" ComponentId="{C50E706F-D9A8-4199-A352-45BAA2EE4B04}" Directory_="native_2_Dir" Attributes="0" KeyPath="WebView2Loader.dll_2"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.Themes.Aero.dll" ComponentId="{E83FE356-267B-4E8D-9404-9AC731223403}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.Themes.Aero.dll"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll" ComponentId="{F5260000-F505-4B65-93A3-E78973318DED}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll" ComponentId="{94068035-C492-41E4-BB04-649CD5BA4896}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.Themes.Metro.dll" ComponentId="{D919C4B5-65FA-48A1-8E60-2CA61966D365}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.Themes.Metro.dll"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll" ComponentId="{89662CFF-2744-444D-88B3-D6C3304F27DE}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.Themes.Office2007.dll" ComponentId="{74BE1B52-6F10-47DF-9B67-7237546801D3}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.Themes.Office2007.dll"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.Themes.VS2010.dll" ComponentId="{747D285A-1C08-4300-8AC0-CBE994C3EB00}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.Themes.VS2010.dll"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.Themes.Windows10.dll" ComponentId="{26689E66-2625-4329-9E6E-1C44C01F8D38}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.Themes.Windows10.dll"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.dll" ComponentId="{1E05D28A-E45D-45FF-BB22-D66764196A62}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.dll"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll" ComponentId="{50AB3FF8-91A0-4453-BB91-6C42E0013050}" Directory_="csCZ_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_1" ComponentId="{93FF61FA-C9C2-4BE3-9180-18FF712839DA}" Directory_="de_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_1"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_10" ComponentId="{FC2385F9-0AE8-4FD0-9190-B61214CC129F}" Directory_="ru_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_10"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_11" ComponentId="{219B7295-6BA4-4FE1-B5F9-44BA46991910}" Directory_="sv_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_11"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_12" ComponentId="{13B5AE83-5C02-4AE0-97B0-6AC288F68140}" Directory_="zhHans_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_12"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_2" ComponentId="{2EC4B6DC-15C9-47C3-A950-6447A5F68619}" Directory_="es_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_2"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_3" ComponentId="{19EC01F3-2A5C-402E-84F1-B35B73D61076}" Directory_="fr_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_3"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_4" ComponentId="{9AEC6B5A-CD38-4E47-BD34-C9F83ECE3EDA}" Directory_="hu_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_4"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_5" ComponentId="{32918441-9328-4FA7-B470-7D33FEA4177F}" Directory_="it_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_5"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_6" ComponentId="{F6F92333-CFC8-4486-AB59-E1558D2E9D34}" Directory_="jaJP_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_6"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_7" ComponentId="{D500FF6C-B499-4FCE-9C33-F4A48A41CC30}" Directory_="nlBE_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_7"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_8" ComponentId="{B3C2DF52-0687-4B76-881F-3D1035041D10}" Directory_="ptBR_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_8"/>
+    <ROW Component="Xceed.Wpf.AvalonDock.resources.dll_9" ComponentId="{85DDDD8F-4028-41F9-8ED6-19C5BE9DDD35}" Directory_="ro_Dir" Attributes="0" KeyPath="Xceed.Wpf.AvalonDock.resources.dll_9"/>
+    <ROW Component="Xceed.Wpf.DataGrid.Themes.FluentDesign.dll" ComponentId="{5B24B60C-D8D1-4EA7-8DDD-13B35EA48C6E}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.DataGrid.Themes.FluentDesign.dll"/>
+    <ROW Component="Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll" ComponentId="{766201AF-0C32-4344-8B30-746BE8D99E7C}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll"/>
+    <ROW Component="Xceed.Wpf.DataGrid.Themes.Metro.dll" ComponentId="{8EF6DF74-E4CE-430D-B933-6F9B670102D5}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.DataGrid.Themes.Metro.dll"/>
+    <ROW Component="Xceed.Wpf.DataGrid.Themes.Office2007.dll" ComponentId="{C172710A-CEBE-4B41-B7EF-B76D7ABE02FB}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.DataGrid.Themes.Office2007.dll"/>
+    <ROW Component="Xceed.Wpf.DataGrid.Themes.Windows10.dll" ComponentId="{69BD71EE-F479-4C38-92BD-F6B4789560B1}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.DataGrid.Themes.Windows10.dll"/>
+    <ROW Component="Xceed.Wpf.DataGrid.dll" ComponentId="{F89C7D62-7B65-4B92-B45F-98B287DDC48B}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.DataGrid.dll"/>
+    <ROW Component="Xceed.Wpf.ListBox.Themes.FluentDesign.dll" ComponentId="{F8D0AAF9-54BC-434B-9DBE-BE059087EEFB}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.ListBox.Themes.FluentDesign.dll"/>
+    <ROW Component="Xceed.Wpf.ListBox.Themes.LiveExplorer.dll" ComponentId="{19EF9122-7F70-48ED-9CAC-1142238F270B}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.ListBox.Themes.LiveExplorer.dll"/>
+    <ROW Component="Xceed.Wpf.ListBox.Themes.MaterialDesign.dll" ComponentId="{57D21236-007D-4E55-9057-0BC1A27AC348}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.ListBox.Themes.MaterialDesign.dll"/>
+    <ROW Component="Xceed.Wpf.ListBox.Themes.Metro.dll" ComponentId="{D0B5A30D-90C5-4A9B-8925-83E6EE5C9828}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.ListBox.Themes.Metro.dll"/>
+    <ROW Component="Xceed.Wpf.ListBox.Themes.Office2007.dll" ComponentId="{FD14909C-4512-4D79-822A-442C1F1A465F}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.ListBox.Themes.Office2007.dll"/>
+    <ROW Component="Xceed.Wpf.ListBox.Themes.WMP11.dll" ComponentId="{FE11AFD1-54CA-431D-8508-5E06053067F3}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.ListBox.Themes.WMP11.dll"/>
+    <ROW Component="Xceed.Wpf.ListBox.Themes.Windows10.dll" ComponentId="{9A0CA174-FA4D-4C2E-9482-93E85EEE9368}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.ListBox.Themes.Windows10.dll"/>
+    <ROW Component="Xceed.Wpf.ListBox.dll" ComponentId="{61D40A0B-BBDB-48DD-B93A-2EA0C5D9C74C}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.ListBox.dll"/>
+    <ROW Component="Xceed.Wpf.Themes.FluentDesign.dll" ComponentId="{88C06692-5C7B-483F-A1CF-10C09A243DC5}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Themes.FluentDesign.dll"/>
+    <ROW Component="Xceed.Wpf.Themes.MaterialDesign.dll" ComponentId="{FF94DFCC-9737-4E60-AC59-012745E8FEF9}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Themes.MaterialDesign.dll"/>
+    <ROW Component="Xceed.Wpf.Themes.MaterialDesignColors.dll" ComponentId="{AC627F42-1ED2-4006-AC70-B4E09F16D735}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Themes.MaterialDesignColors.dll"/>
+    <ROW Component="Xceed.Wpf.Themes.Metro.dll" ComponentId="{D73D8AD3-D6F0-4E78-B12E-93206CD40089}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Themes.Metro.dll"/>
+    <ROW Component="Xceed.Wpf.Themes.Office2007.dll" ComponentId="{7709A281-99E3-406A-AB15-9AD9CC2DC84B}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Themes.Office2007.dll"/>
+    <ROW Component="Xceed.Wpf.Themes.Windows10.dll" ComponentId="{4B58E23E-3581-46DC-BFF2-5B7E8FC9B2DD}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Themes.Windows10.dll"/>
+    <ROW Component="Xceed.Wpf.Themes.dll" ComponentId="{62CA2A3D-7681-485E-B198-98604A3710BA}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Themes.dll"/>
+    <ROW Component="Xceed.Wpf.Toolkit.Themes.FluentDesign.dll" ComponentId="{D6FCEB64-99A3-44C6-B272-D0145DE3F04D}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Toolkit.Themes.FluentDesign.dll"/>
+    <ROW Component="Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll" ComponentId="{B08F6B24-AB0E-4143-8C0E-852615B8198A}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll"/>
+    <ROW Component="Xceed.Wpf.Toolkit.Themes.Metro.dll" ComponentId="{3CE19870-4C78-4BB3-B0E5-9ED7D237583E}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Toolkit.Themes.Metro.dll"/>
+    <ROW Component="Xceed.Wpf.Toolkit.Themes.Office2007.dll" ComponentId="{64745AD3-D7E8-436B-A003-D3CFD2D8484D}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Toolkit.Themes.Office2007.dll"/>
+    <ROW Component="Xceed.Wpf.Toolkit.Themes.Windows10.dll" ComponentId="{76724F66-C7F6-4BC4-83AF-5EC221044E39}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Toolkit.Themes.Windows10.dll"/>
+    <ROW Component="Xceed.Wpf.Toolkit.dll" ComponentId="{3B3D8A8E-AF7C-402A-B2F5-52BCBEC57643}" Directory_="Release_Dir" Attributes="0" KeyPath="Xceed.Wpf.Toolkit.dll"/>
+    <ROW Component="exe" ComponentId="{7C584D13-0136-48FC-9235-6A249E86EF68}" Directory_="app.publish_Dir" Attributes="0" KeyPath="exe"/>
+    <ROW Component="exe_1" ComponentId="{251DC15A-AE9A-44E0-B792-D79192642FF1}" Directory_="Release_Dir" Attributes="0" KeyPath="exe_1"/>
+    <ROW Component="last_theme.json" ComponentId="{30386A5F-A598-4003-9899-66A8D3BCF8AF}" Directory_="Themes_Dir" Attributes="0" KeyPath="last_theme.json" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="exe" Component_="exe" FileName="КИНОЛЮ~1.EXE|Кинолюксия.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\app.publish\Кинолюксия.exe" SelfReg="false"/>
+    <ROW File="BCrypt.NetNext.dll" Component_="BCrypt.NetNext.dll" FileName="BCRYPT~1.DLL|BCrypt.Net-Next.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\BCrypt.Net-Next.dll" SelfReg="false"/>
+    <ROW File="BCrypt.NetNext.xml" Component_="BCrypt.NetNext.xml" FileName="BCRYPT~1.XML|BCrypt.Net-Next.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\BCrypt.Net-Next.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll" Component_="Xceed.Wpf.AvalonDock.resources.dll" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="data.sec" Component_="BCrypt.NetNext.xml" FileName="data.sec" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\data.sec" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_1" Component_="Xceed.Wpf.AvalonDock.resources.dll_1" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_2" Component_="Xceed.Wpf.AvalonDock.resources.dll_2" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_3" Component_="Xceed.Wpf.AvalonDock.resources.dll_3" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_4" Component_="Xceed.Wpf.AvalonDock.resources.dll_4" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_5" Component_="Xceed.Wpf.AvalonDock.resources.dll_5" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_6" Component_="Xceed.Wpf.AvalonDock.resources.dll_6" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\ja-JP\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Bcl.AsyncInterfaces.dll" Component_="Microsoft.Bcl.AsyncInterfaces.dll" FileName="MICROS~1.DLL|Microsoft.Bcl.AsyncInterfaces.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Bcl.AsyncInterfaces.xml" Component_="BCrypt.NetNext.xml" FileName="MICROS~1.XML|Microsoft.Bcl.AsyncInterfaces.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml" SelfReg="false"/>
+    <ROW File="Microsoft.Bcl.HashCode.dll" Component_="Microsoft.Bcl.HashCode.dll" FileName="MICROS~2.DLL|Microsoft.Bcl.HashCode.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Bcl.HashCode.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Bcl.HashCode.xml" Component_="BCrypt.NetNext.xml" FileName="MICROS~2.XML|Microsoft.Bcl.HashCode.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Bcl.HashCode.xml" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.Abstractions.dll" Component_="Microsoft.Extensions.DependencyInjection.Abstractions.dll" FileName="MICROS~3.DLL|Microsoft.Extensions.DependencyInjection.Abstractions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.Abstractions.xml" Component_="BCrypt.NetNext.xml" FileName="MICROS~3.XML|Microsoft.Extensions.DependencyInjection.Abstractions.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.Abstractions.dll" Component_="Microsoft.Extensions.Logging.Abstractions.dll" FileName="MICROS~4.DLL|Microsoft.Extensions.Logging.Abstractions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.Abstractions.xml" Component_="BCrypt.NetNext.xml" FileName="MICROS~4.XML|Microsoft.Extensions.Logging.Abstractions.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml" SelfReg="false"/>
+    <ROW File="Microsoft.Web.WebView2.Core.dll" Component_="Microsoft.Web.WebView2.Core.dll" FileName="MICROS~5.DLL|Microsoft.Web.WebView2.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Web.WebView2.Core.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Web.WebView2.Core.xml" Component_="BCrypt.NetNext.xml" FileName="MICROS~5.XML|Microsoft.Web.WebView2.Core.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Web.WebView2.Core.xml" SelfReg="false"/>
+    <ROW File="Microsoft.Web.WebView2.WinForms.dll" Component_="Microsoft.Web.WebView2.WinForms.dll" FileName="MICROS~6.DLL|Microsoft.Web.WebView2.WinForms.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Web.WebView2.WinForms.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Web.WebView2.WinForms.xml" Component_="BCrypt.NetNext.xml" FileName="MICROS~6.XML|Microsoft.Web.WebView2.WinForms.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Web.WebView2.WinForms.xml" SelfReg="false"/>
+    <ROW File="Microsoft.Web.WebView2.Wpf.dll" Component_="Microsoft.Web.WebView2.Wpf.dll" FileName="MICROS~7.DLL|Microsoft.Web.WebView2.Wpf.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Web.WebView2.Wpf.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Web.WebView2.Wpf.xml" Component_="BCrypt.NetNext.xml" FileName="MICROS~7.XML|Microsoft.Web.WebView2.Wpf.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Microsoft.Web.WebView2.Wpf.xml" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="Newtonsoft.Json.dll" FileName="NEWTON~1.DLL|Newtonsoft.Json.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Newtonsoft.Json.dll" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.xml" Component_="BCrypt.NetNext.xml" FileName="NEWTON~1.XML|Newtonsoft.Json.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Newtonsoft.Json.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_7" Component_="Xceed.Wpf.AvalonDock.resources.dll_7" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\nl-BE\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="Npgsql.dll" Component_="Npgsql.dll" FileName="Npgsql.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Npgsql.dll" SelfReg="false"/>
+    <ROW File="Npgsql.xml" Component_="BCrypt.NetNext.xml" FileName="Npgsql.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Npgsql.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_8" Component_="Xceed.Wpf.AvalonDock.resources.dll_8" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_9" Component_="Xceed.Wpf.AvalonDock.resources.dll_9" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_10" Component_="Xceed.Wpf.AvalonDock.resources.dll_10" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="WebView2Loader.dll" Component_="WebView2Loader.dll" FileName="WEBVIE~1.DLL|WebView2Loader.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\runtimes\win-arm64\native\WebView2Loader.dll" SelfReg="false"/>
+    <ROW File="WebView2Loader.dll_1" Component_="WebView2Loader.dll_1" FileName="WEBVIE~1.DLL|WebView2Loader.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\runtimes\win-x64\native\WebView2Loader.dll" SelfReg="false"/>
+    <ROW File="WebView2Loader.dll_2" Component_="WebView2Loader.dll_2" FileName="WEBVIE~1.DLL|WebView2Loader.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\runtimes\win-x86\native\WebView2Loader.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_11" Component_="Xceed.Wpf.AvalonDock.resources.dll_11" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="System.Buffers.dll" Component_="System.Buffers.dll" FileName="SYSTEM~1.DLL|System.Buffers.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Buffers.dll" SelfReg="false"/>
+    <ROW File="System.Buffers.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTEM~1.XML|System.Buffers.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Buffers.xml" SelfReg="false"/>
+    <ROW File="System.Collections.Immutable.dll" Component_="System.Collections.Immutable.dll" FileName="SYSTEM~2.DLL|System.Collections.Immutable.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Collections.Immutable.dll" SelfReg="false"/>
+    <ROW File="System.Collections.Immutable.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTEM~2.XML|System.Collections.Immutable.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Collections.Immutable.xml" SelfReg="false"/>
+    <ROW File="System.Diagnostics.DiagnosticSource.dll" Component_="System.Diagnostics.DiagnosticSource.dll" FileName="SYSTEM~3.DLL|System.Diagnostics.DiagnosticSource.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Diagnostics.DiagnosticSource.dll" SelfReg="false"/>
+    <ROW File="System.Diagnostics.DiagnosticSource.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTEM~3.XML|System.Diagnostics.DiagnosticSource.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Diagnostics.DiagnosticSource.xml" SelfReg="false"/>
+    <ROW File="System.Memory.dll" Component_="System.Memory.dll" FileName="SYSTEM~4.DLL|System.Memory.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Memory.dll" SelfReg="false"/>
+    <ROW File="System.Memory.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTEM~4.XML|System.Memory.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Memory.xml" SelfReg="false"/>
+    <ROW File="System.Numerics.Vectors.dll" Component_="System.Numerics.Vectors.dll" FileName="SYSTEM~5.DLL|System.Numerics.Vectors.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Numerics.Vectors.dll" SelfReg="false"/>
+    <ROW File="System.Numerics.Vectors.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTEM~5.XML|System.Numerics.Vectors.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Numerics.Vectors.xml" SelfReg="false"/>
+    <ROW File="System.Runtime.CompilerServices.Unsafe.dll" Component_="System.Runtime.CompilerServices.Unsafe.dll" FileName="SYSTEM~6.DLL|System.Runtime.CompilerServices.Unsafe.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Runtime.CompilerServices.Unsafe.dll" SelfReg="false"/>
+    <ROW File="System.Runtime.CompilerServices.Unsafe.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTEM~6.XML|System.Runtime.CompilerServices.Unsafe.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Runtime.CompilerServices.Unsafe.xml" SelfReg="false"/>
+    <ROW File="System.Text.Encodings.Web.dll" Component_="System.Text.Encodings.Web.dll" FileName="SYSTEM~7.DLL|System.Text.Encodings.Web.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Text.Encodings.Web.dll" SelfReg="false"/>
+    <ROW File="System.Text.Encodings.Web.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTEM~7.XML|System.Text.Encodings.Web.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Text.Encodings.Web.xml" SelfReg="false"/>
+    <ROW File="System.Text.Json.dll" Component_="System.Text.Json.dll" FileName="SYSTEM~8.DLL|System.Text.Json.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Text.Json.dll" SelfReg="false"/>
+    <ROW File="System.Text.Json.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTEM~8.XML|System.Text.Json.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Text.Json.xml" SelfReg="false"/>
+    <ROW File="System.Threading.Channels.dll" Component_="System.Threading.Channels.dll" FileName="SYSTEM~9.DLL|System.Threading.Channels.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Threading.Channels.dll" SelfReg="false"/>
+    <ROW File="System.Threading.Channels.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTEM~9.XML|System.Threading.Channels.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Threading.Channels.xml" SelfReg="false"/>
+    <ROW File="System.Threading.Tasks.Extensions.dll" Component_="System.Threading.Tasks.Extensions.dll" FileName="SYSTE~10.DLL|System.Threading.Tasks.Extensions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Threading.Tasks.Extensions.dll" SelfReg="false"/>
+    <ROW File="System.Threading.Tasks.Extensions.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTE~10.XML|System.Threading.Tasks.Extensions.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.Threading.Tasks.Extensions.xml" SelfReg="false"/>
+    <ROW File="System.ValueTuple.dll" Component_="System.ValueTuple.dll" FileName="SYSTE~11.DLL|System.ValueTuple.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.ValueTuple.dll" SelfReg="false"/>
+    <ROW File="System.ValueTuple.xml" Component_="BCrypt.NetNext.xml" FileName="SYSTE~11.XML|System.ValueTuple.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\System.ValueTuple.xml" SelfReg="false"/>
+    <ROW File="last_theme.json" Component_="last_theme.json" FileName="LAST_T~1.JSO|last_theme.json" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Themes\last_theme.json" SelfReg="false"/>
+    <ROW File="themes.json" Component_="last_theme.json" FileName="THEMES~1.JSO|themes.json" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Themes\themes.json" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.dll" Component_="Xceed.Wpf.AvalonDock.dll" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.Aero.dll" Component_="Xceed.Wpf.AvalonDock.Themes.Aero.dll" FileName="XCEEDW~2.DLL|Xceed.Wpf.AvalonDock.Themes.Aero.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll" Component_="Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll" FileName="XCEEDW~3.DLL|Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml" Component_="BCrypt.NetNext.xml" FileName="XCEEDW~1.XML|Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll" Component_="Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll" FileName="XCEEDW~4.DLL|Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml" Component_="BCrypt.NetNext.xml" FileName="XCEEDW~2.XML|Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.Metro.dll" Component_="Xceed.Wpf.AvalonDock.Themes.Metro.dll" FileName="XCEEDW~5.DLL|Xceed.Wpf.AvalonDock.Themes.Metro.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll" Component_="Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll" FileName="XCEEDW~6.DLL|Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml" Component_="BCrypt.NetNext.xml" FileName="XCEEDW~3.XML|Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.Office2007.dll" Component_="Xceed.Wpf.AvalonDock.Themes.Office2007.dll" FileName="XCEEDW~7.DLL|Xceed.Wpf.AvalonDock.Themes.Office2007.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.Office2007.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.Office2007.xml" Component_="BCrypt.NetNext.xml" FileName="XCEEDW~4.XML|Xceed.Wpf.AvalonDock.Themes.Office2007.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.Office2007.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.VS2010.dll" Component_="Xceed.Wpf.AvalonDock.Themes.VS2010.dll" FileName="XCEEDW~8.DLL|Xceed.Wpf.AvalonDock.Themes.VS2010.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.Windows10.dll" Component_="Xceed.Wpf.AvalonDock.Themes.Windows10.dll" FileName="XCEEDW~9.DLL|Xceed.Wpf.AvalonDock.Themes.Windows10.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.Windows10.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.Themes.Windows10.xml" Component_="BCrypt.NetNext.xml" FileName="XCEEDW~5.XML|Xceed.Wpf.AvalonDock.Themes.Windows10.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.AvalonDock.Themes.Windows10.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.dll" Component_="Xceed.Wpf.DataGrid.dll" FileName="XCEED~10.DLL|Xceed.Wpf.DataGrid.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.Themes.FluentDesign.dll" Component_="Xceed.Wpf.DataGrid.Themes.FluentDesign.dll" FileName="XCEED~11.DLL|Xceed.Wpf.DataGrid.Themes.FluentDesign.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.Themes.FluentDesign.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.Themes.FluentDesign.xml" Component_="BCrypt.NetNext.xml" FileName="XCEEDW~6.XML|Xceed.Wpf.DataGrid.Themes.FluentDesign.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.Themes.FluentDesign.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll" Component_="Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll" FileName="XCEED~12.DLL|Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml" Component_="BCrypt.NetNext.xml" FileName="XCEEDW~7.XML|Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.Themes.MaterialDesign.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.Themes.Metro.dll" Component_="Xceed.Wpf.DataGrid.Themes.Metro.dll" FileName="XCEED~13.DLL|Xceed.Wpf.DataGrid.Themes.Metro.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.Themes.Metro.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.Themes.Metro.xml" Component_="BCrypt.NetNext.xml" FileName="XCEEDW~8.XML|Xceed.Wpf.DataGrid.Themes.Metro.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.Themes.Metro.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.Themes.Office2007.dll" Component_="Xceed.Wpf.DataGrid.Themes.Office2007.dll" FileName="XCEED~14.DLL|Xceed.Wpf.DataGrid.Themes.Office2007.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.Themes.Office2007.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.Themes.Office2007.xml" Component_="BCrypt.NetNext.xml" FileName="XCEEDW~9.XML|Xceed.Wpf.DataGrid.Themes.Office2007.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.Themes.Office2007.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.Themes.Windows10.dll" Component_="Xceed.Wpf.DataGrid.Themes.Windows10.dll" FileName="XCEED~15.DLL|Xceed.Wpf.DataGrid.Themes.Windows10.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.Themes.Windows10.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.Themes.Windows10.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~10.XML|Xceed.Wpf.DataGrid.Themes.Windows10.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.Themes.Windows10.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.DataGrid.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~11.XML|Xceed.Wpf.DataGrid.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.DataGrid.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.dll" Component_="Xceed.Wpf.ListBox.dll" FileName="XCEED~16.DLL|Xceed.Wpf.ListBox.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.FluentDesign.dll" Component_="Xceed.Wpf.ListBox.Themes.FluentDesign.dll" FileName="XCEED~17.DLL|Xceed.Wpf.ListBox.Themes.FluentDesign.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.FluentDesign.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.FluentDesign.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~12.XML|Xceed.Wpf.ListBox.Themes.FluentDesign.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.FluentDesign.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.LiveExplorer.dll" Component_="Xceed.Wpf.ListBox.Themes.LiveExplorer.dll" FileName="XCEED~18.DLL|Xceed.Wpf.ListBox.Themes.LiveExplorer.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.LiveExplorer.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.LiveExplorer.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~13.XML|Xceed.Wpf.ListBox.Themes.LiveExplorer.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.LiveExplorer.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.MaterialDesign.dll" Component_="Xceed.Wpf.ListBox.Themes.MaterialDesign.dll" FileName="XCEED~19.DLL|Xceed.Wpf.ListBox.Themes.MaterialDesign.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.MaterialDesign.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.MaterialDesign.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~14.XML|Xceed.Wpf.ListBox.Themes.MaterialDesign.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.MaterialDesign.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.Metro.dll" Component_="Xceed.Wpf.ListBox.Themes.Metro.dll" FileName="XCEED~20.DLL|Xceed.Wpf.ListBox.Themes.Metro.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.Metro.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.Metro.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~15.XML|Xceed.Wpf.ListBox.Themes.Metro.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.Metro.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.Office2007.dll" Component_="Xceed.Wpf.ListBox.Themes.Office2007.dll" FileName="XCEED~21.DLL|Xceed.Wpf.ListBox.Themes.Office2007.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.Office2007.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.Office2007.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~16.XML|Xceed.Wpf.ListBox.Themes.Office2007.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.Office2007.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.Windows10.dll" Component_="Xceed.Wpf.ListBox.Themes.Windows10.dll" FileName="XCEED~22.DLL|Xceed.Wpf.ListBox.Themes.Windows10.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.Windows10.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.Windows10.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~17.XML|Xceed.Wpf.ListBox.Themes.Windows10.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.Windows10.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.WMP11.dll" Component_="Xceed.Wpf.ListBox.Themes.WMP11.dll" FileName="XCEED~23.DLL|Xceed.Wpf.ListBox.Themes.WMP11.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.WMP11.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.Themes.WMP11.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~18.XML|Xceed.Wpf.ListBox.Themes.WMP11.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.Themes.WMP11.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.ListBox.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~19.XML|Xceed.Wpf.ListBox.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.ListBox.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.dll" Component_="Xceed.Wpf.Themes.dll" FileName="XCEED~24.DLL|Xceed.Wpf.Themes.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.FluentDesign.dll" Component_="Xceed.Wpf.Themes.FluentDesign.dll" FileName="XCEED~25.DLL|Xceed.Wpf.Themes.FluentDesign.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.FluentDesign.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.FluentDesign.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~20.XML|Xceed.Wpf.Themes.FluentDesign.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.FluentDesign.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.MaterialDesign.dll" Component_="Xceed.Wpf.Themes.MaterialDesign.dll" FileName="XCEED~26.DLL|Xceed.Wpf.Themes.MaterialDesign.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.MaterialDesign.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.MaterialDesign.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~21.XML|Xceed.Wpf.Themes.MaterialDesign.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.MaterialDesign.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.MaterialDesignColors.dll" Component_="Xceed.Wpf.Themes.MaterialDesignColors.dll" FileName="XCEED~27.DLL|Xceed.Wpf.Themes.MaterialDesignColors.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.MaterialDesignColors.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.MaterialDesignColors.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~22.XML|Xceed.Wpf.Themes.MaterialDesignColors.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.MaterialDesignColors.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.Metro.dll" Component_="Xceed.Wpf.Themes.Metro.dll" FileName="XCEED~28.DLL|Xceed.Wpf.Themes.Metro.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.Metro.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.Metro.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~23.XML|Xceed.Wpf.Themes.Metro.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.Metro.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.Office2007.dll" Component_="Xceed.Wpf.Themes.Office2007.dll" FileName="XCEED~29.DLL|Xceed.Wpf.Themes.Office2007.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.Office2007.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.Office2007.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~24.XML|Xceed.Wpf.Themes.Office2007.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.Office2007.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.Windows10.dll" Component_="Xceed.Wpf.Themes.Windows10.dll" FileName="XCEED~30.DLL|Xceed.Wpf.Themes.Windows10.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.Windows10.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.Windows10.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~25.XML|Xceed.Wpf.Themes.Windows10.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.Windows10.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Themes.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~26.XML|Xceed.Wpf.Themes.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Themes.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.dll" Component_="Xceed.Wpf.Toolkit.dll" FileName="XCEED~31.DLL|Xceed.Wpf.Toolkit.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.Themes.FluentDesign.dll" Component_="Xceed.Wpf.Toolkit.Themes.FluentDesign.dll" FileName="XCEED~32.DLL|Xceed.Wpf.Toolkit.Themes.FluentDesign.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.Themes.FluentDesign.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.Themes.FluentDesign.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~27.XML|Xceed.Wpf.Toolkit.Themes.FluentDesign.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.Themes.FluentDesign.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll" Component_="Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll" FileName="XCEED~33.DLL|Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~28.XML|Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.Themes.MaterialDesign.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.Themes.Metro.dll" Component_="Xceed.Wpf.Toolkit.Themes.Metro.dll" FileName="XCEED~34.DLL|Xceed.Wpf.Toolkit.Themes.Metro.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.Themes.Metro.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.Themes.Metro.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~29.XML|Xceed.Wpf.Toolkit.Themes.Metro.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.Themes.Metro.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.Themes.Office2007.dll" Component_="Xceed.Wpf.Toolkit.Themes.Office2007.dll" FileName="XCEED~35.DLL|Xceed.Wpf.Toolkit.Themes.Office2007.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.Themes.Office2007.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.Themes.Office2007.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~30.XML|Xceed.Wpf.Toolkit.Themes.Office2007.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.Themes.Office2007.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.Themes.Windows10.dll" Component_="Xceed.Wpf.Toolkit.Themes.Windows10.dll" FileName="XCEED~36.DLL|Xceed.Wpf.Toolkit.Themes.Windows10.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.Themes.Windows10.dll" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.Toolkit.Themes.Windows10.xml" Component_="BCrypt.NetNext.xml" FileName="XCEED~31.XML|Xceed.Wpf.Toolkit.Themes.Windows10.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Xceed.Wpf.Toolkit.Themes.Windows10.xml" SelfReg="false"/>
+    <ROW File="Xceed.Wpf.AvalonDock.resources.dll_12" Component_="Xceed.Wpf.AvalonDock.resources.dll_12" FileName="XCEEDW~1.DLL|Xceed.Wpf.AvalonDock.resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll" SelfReg="false"/>
+    <ROW File="application" Component_="BCrypt.NetNext.xml" FileName="КИНОЛЮ~1.APP|Кинолюксия.application" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Кинолюксия.application" SelfReg="false"/>
+    <ROW File="exe_1" Component_="exe_1" FileName="КИНОЛЮ~1.EXE|Кинолюксия.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Кинолюксия.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="exe.config" Component_="BCrypt.NetNext.xml" FileName="КИНОЛЮ~1.CON|Кинолюксия.exe.config" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Кинолюксия.exe.config" SelfReg="false"/>
+    <ROW File="exe.manifest" Component_="BCrypt.NetNext.xml" FileName="КИНОЛЮ~1.MAN|Кинолюксия.exe.manifest" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Кинолюксия.exe.manifest" SelfReg="false"/>
+    <ROW File="pdb" Component_="exe_1" FileName="КИНОЛЮ~1.PDB|Кинолюксия.pdb" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Кинолюксия.pdb" SelfReg="false"/>
+    <ROW File="ico" Component_="BCrypt.NetNext.xml" FileName="Курсач.ico" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Курсач\bin\Release\Курсач.ico" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.custcomp.MsiShortcutPropertyComponent">
+    <ROW MsiShortcutProperty="__20" Shortcut_="__2" PropertyKey="System.AppUserModel.PreventPinning" PropVariantValue="1"/>
+    <ROW MsiShortcutProperty="__10" Shortcut_="__1" PropertyKey="System.AppUserModel.PreventPinning" PropVariantValue="1"/>
+    <ROW MsiShortcutProperty="_0" Shortcut_="_" PropertyKey="System.AppUserModel.PreventPinning" PropVariantValue="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AiPersistentPropComponent">
+    <ROW Property="AI_SHORTCUTSREG" Registry="AI_SHORTCUTSREG" HklmSearch="AI_SHORTCUTSREG" HkcuSearch="AI_SHORTCUTSREG_1" Hklm64Search="AI_SHORTCUTSREG_2" Hkcu64Search="AI_SHORTCUTSREG_3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="249"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="251"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Z:\Кинолюксия" Languages="ru" InstallationType="2" CabsLocation="1" CompressCabs="false" UseLzma="true" LzmaMethod="2" LzmaCompressionLevel="4" PackageType="1" FilesInsideExe="true" ExeIconPath="Курсач\bin\Release\Курсач.ico" SummInfoMetadata="Page Count:450" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" ExtUI="true" UseLargeSchema="true" ExeName="Cinemalux" MsiPackageType="x64"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_ru.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="LicenseAgreementDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\LicenseAgreementDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="ReadmeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\ReadmeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="ShortcutsDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\ShortcutsDlg.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="Удаление извлеченных файлов из архива" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="Удаление извлеченных файлов из архива" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractFiles" Description="Извлечение файлов из архива" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="Извлечение файлов из архива" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+    <ROW Property="AI_SHORTCUTSREG" Signature_="AI_SHORTCUTSREG"/>
+    <ROW Property="AI_SHORTCUTSREG" Signature_="AI_SHORTCUTSREG_1"/>
+    <ROW Property="AI_SHORTCUTSREG" Signature_="AI_SHORTCUTSREG_2"/>
+    <ROW Property="AI_SHORTCUTSREG" Signature_="AI_SHORTCUTSREG_3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="ShortcutFlags.dll" SourcePath="&lt;AI_CUSTACTS&gt;ShortcutFlags.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="ScrollableText" X="20" Y="60" Width="330" Height="120" Attributes="7" Text="Z:\Кинолюксия\лицензия.rtf" Order="400" TextLocId="Control.Text.LicenseAgreementDlg#AgreementText" MsiKey="LicenseAgreementDlg#AgreementText"/>
+    <ROW Dialog_="ReadmeDlg" Control="ReadmeText" Type="ScrollableText" X="20" Y="60" Width="330" Height="150" Attributes="7" Text="Z:\Кинолюксия\реадме.rtf" Order="400" TextLocId="Control.Text.ReadmeDlg#ReadmeText" MsiKey="ReadmeDlg#ReadmeText"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="ReadmeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="203"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="ShortcutsDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="NewDialog" Argument="ShortcutsDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="NewDialog" Argument="ReadmeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Next" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="ShortcutsDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="204"/>
+    <ROW Dialog_="ShortcutsDlg" Control_="Back" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL AND ReadLicense" Ordering="2"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL AND ReadLicense" Ordering="202"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_ApplyShortcutFlags" Type="3073" Source="ShortcutFlags.dll" Target="UpdateShortcutFlags" WithoutSeq="true"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="CustomActionData" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DATA_SETTER_1" Type="51" Source="AI_DEL_EMPTY_SHORTCUTDIR" Target="[SHORTCUTDIR]"/>
+    <ROW Action="AI_DELETE_SHORTCUTS" Type="1" Source="aicustact.dll" Target="DeleteShortcuts"/>
+    <ROW Action="AI_DEL_EMPTY_SHORTCUTDIR" Type="3073" Source="aicustact.dll" Target="DeleteEmptyDirectory" AdditionalSeq="AI_DATA_SETTER_1"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_PinShortcuts" Type="1" Source="ShortcutFlags.dll" Target="PinShortcuts"/>
+    <ROW Action="AI_PinToStartScreen" Type="1025" Source="ShortcutFlags.dll" Target="PinToStartScreen" WithoutSeq="true"/>
+    <ROW Action="AI_PinToTaskbar" Type="1025" Source="ShortcutFlags.dll" Target="PinToTaskbar" WithoutSeq="true"/>
+    <ROW Action="AI_PrepareShortcutFlags" Type="1" Source="ShortcutFlags.dll" Target="PrepareActionData"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="AI_UnpinFromStartScreen" Type="1025" Source="ShortcutFlags.dll" Target="UnpinFromStartScreen" WithoutSeq="true"/>
+    <ROW Action="AI_UnpinFromTaskbar" Type="1025" Source="ShortcutFlags.dll" Target="UnpinFromTaskbar" WithoutSeq="true"/>
+    <ROW Action="AI_UnpinShortcuts" Type="1" Source="ShortcutFlags.dll" Target="UnpinShortcuts"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[ProgramFiles64Folder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="AI_ExePath"/>
+    <ROW Feature_="MainFeature" Component_="exe"/>
+    <ROW Feature_="MainFeature" Component_="BCrypt.NetNext.dll"/>
+    <ROW Feature_="MainFeature" Component_="BCrypt.NetNext.xml"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_2"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_3"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_4"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_5"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_6"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Bcl.AsyncInterfaces.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Bcl.HashCode.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Extensions.Logging.Abstractions.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Web.WebView2.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Web.WebView2.WinForms.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Web.WebView2.Wpf.dll"/>
+    <ROW Feature_="MainFeature" Component_="Newtonsoft.Json.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_7"/>
+    <ROW Feature_="MainFeature" Component_="Npgsql.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_8"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_9"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_10"/>
+    <ROW Feature_="MainFeature" Component_="WebView2Loader.dll"/>
+    <ROW Feature_="MainFeature" Component_="WebView2Loader.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="WebView2Loader.dll_2"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_11"/>
+    <ROW Feature_="MainFeature" Component_="System.Buffers.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Collections.Immutable.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Diagnostics.DiagnosticSource.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Memory.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Numerics.Vectors.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Runtime.CompilerServices.Unsafe.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Text.Encodings.Web.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Text.Json.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Threading.Channels.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Threading.Tasks.Extensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.ValueTuple.dll"/>
+    <ROW Feature_="MainFeature" Component_="last_theme.json"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.Themes.Aero.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.Themes.Metro.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.Themes.Office2007.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.Themes.VS2010.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.Themes.Windows10.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.DataGrid.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.DataGrid.Themes.FluentDesign.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.DataGrid.Themes.MaterialDesign.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.DataGrid.Themes.Metro.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.DataGrid.Themes.Office2007.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.DataGrid.Themes.Windows10.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.ListBox.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.ListBox.Themes.FluentDesign.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.ListBox.Themes.LiveExplorer.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.ListBox.Themes.MaterialDesign.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.ListBox.Themes.Metro.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.ListBox.Themes.Office2007.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.ListBox.Themes.Windows10.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.ListBox.Themes.WMP11.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Themes.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Themes.FluentDesign.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Themes.MaterialDesign.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Themes.MaterialDesignColors.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Themes.Metro.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Themes.Office2007.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Themes.Windows10.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Toolkit.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Toolkit.Themes.FluentDesign.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Toolkit.Themes.MaterialDesign.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Toolkit.Themes.Metro.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Toolkit.Themes.Office2007.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.Toolkit.Themes.Windows10.dll"/>
+    <ROW Feature_="MainFeature" Component_="Xceed.Wpf.AvalonDock.resources.dll_12"/>
+    <ROW Feature_="MainFeature" Component_="exe_1"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+    <ROW Feature_="MainFeature" Component_="AI_SHORTCUTSREG"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="_.exe" SourcePath="Курсач\bin\Release\Курсач.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="SET_APPDIR" Condition="APPDIR=&quot;&quot;" Sequence="749" MsiKey="SET_APPDIR"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1397"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="6599" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="1399" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="1398"/>
+    <ROW Action="AI_PrepareShortcutFlags" Condition="(VersionNT &gt; 501) AND ((NOT Installed) OR (Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;)))" Sequence="4501"/>
+    <ROW Action="AI_PinShortcuts" Condition="(VersionNT &gt; 600) AND ((NOT Installed) OR (Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;)))" Sequence="6499"/>
+    <ROW Action="AI_UnpinShortcuts" Condition="(VersionNT &gt; 600) AND (REMOVE = &quot;ALL&quot;)" Sequence="3199"/>
+    <ROW Action="AI_DELETE_SHORTCUTS" Condition="NOT (REMOVE=&quot;ALL&quot;)" Sequence="1401"/>
+    <ROW Action="AI_DEL_EMPTY_SHORTCUTDIR" Condition="NOT (REMOVE=&quot;ALL&quot;)" Sequence="6402"/>
+    <ROW Action="AI_DATA_SETTER_1" Condition="NOT (REMOVE=&quot;ALL&quot;)" Sequence="6401"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="SET_APPDIR" Condition="APPDIR=&quot;&quot;" Sequence="749" MsiKey="SET_APPDIR"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="Нельзя установить [ProductName] на [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="Нельзя установить [ProductName] на [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="Нельзя установить [ProductName] на [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 600)" Description="Нельзя установить [ProductName] на [WindowsTypeNT60Display]." DescriptionLocId="AI.LaunchCondition.NoNT60" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="Этот пакет можно запускать только из загрузчика." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] не может быть установлен на [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_SHORTCUTSREG" Root="2" Key="Software\[Manufacturer]\[UpgradeCode]" Name="AI_SHORTCUTSREG" Type="2"/>
+    <ROW Signature_="AI_SHORTCUTSREG_1" Root="1" Key="Software\[Manufacturer]\[UpgradeCode]" Name="AI_SHORTCUTSREG" Type="2"/>
+    <ROW Signature_="AI_SHORTCUTSREG_2" Root="2" Key="Software\[Manufacturer]\[UpgradeCode]" Name="AI_SHORTCUTSREG" Type="18"/>
+    <ROW Signature_="AI_SHORTCUTSREG_3" Root="1" Key="Software\[Manufacturer]\[UpgradeCode]" Name="AI_SHORTCUTSREG" Type="18"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="AI_SHORTCUTSREG" Root="-1" Key="Software\[Manufacturer]\[UpgradeCode]" Name="AI_SHORTCUTSREG" Value="[AI_SHORTCUTSREG]" Component_="AI_SHORTCUTSREG"/>
+    <ROW Registry="AdvancedInstaller" Root="-1" Key="Software\Caphyon\Advanced Installer" Name="\"/>
+    <ROW Registry="Caphyon" Root="-1" Key="Software\Caphyon" Name="\"/>
+    <ROW Registry="LZMA" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA" Name="\"/>
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductCode" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]" Name="\"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="ProductVersion" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="UpgradeCode" Root="-1" Key="Software\[Manufacturer]\[UpgradeCode]" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="_" Directory_="SHORTCUTDIR" Name="КИНОЛЮ~1|Кинолюксия" Component_="exe_1" Target="[#exe_1]" Hotkey="0" Icon_="_.exe" IconIndex="0" ShowCmd="1" WkDir="Release_Dir" CustomFlags="1"/>
+    <ROW Shortcut="__1" Directory_="DesktopFolder" Name="КИНОЛЮ~1|Кинолюксия" Component_="exe_1" Target="[#exe_1]" Hotkey="0" Icon_="_.exe" IconIndex="0" ShowCmd="1" WkDir="Release_Dir" CustomFlags="1"/>
+    <ROW Shortcut="__2" Directory_="StartMenuFolder" Name="КИНОЛЮ~1|Кинолюксия" Component_="exe_1" Target="[#exe_1]" Hotkey="0" Icon_="_.exe" IconIndex="0" ShowCmd="1" WkDir="Release_Dir" CustomFlags="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="255.255.6555.6555" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+  </COMPONENT>
+</DOCUMENT>

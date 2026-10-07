@@ -1,0 +1,77 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
+         TreatAsLocalProperty="TaskFolder;TaskAssembly">
+
+	<PropertyGroup>
+		<!-- Task assembly path -->
+    <ShieldTaskAssembly Condition="'$(MSBuildRuntimeType)' == 'Full'">$(MSBuildThisFileDirectory)\..\netframework\Shield.Integration.dll</ShieldTaskAssembly>
+    <ShieldTaskAssembly Condition="'$(ShieldTaskAssembly)' == ''">$(MSBuildThisFileDirectory)\..\netstandard\Shield.Integration.dll</ShieldTaskAssembly>
+    <ProjectName Condition="'$(ProjectName)' == ''">$(MSBuildProjectName)</ProjectName>
+
+	</PropertyGroup>
+
+	<UsingTask TaskName="Protect" AssemblyFile="$(ShieldTaskAssembly)" />
+
+  <!-- Inicialmente asumimos que Avalonia no está presente -->
+  <PropertyGroup>
+    <IsAvaloniaProject>false</IsAvaloniaProject>
+    <!-- Valor predeterminado -->
+  </PropertyGroup>
+
+  <!-- Verificar y definir IsAvaloniaProject basado en AvaloniaBuildTasksLocation -->
+  <Target Name="CheckIfAvalonia"
+          BeforeTargets="ProtectWithShield;ProtectWithShieldAvalonia">
+
+    <PropertyGroup>
+      <!-- Si AvaloniaBuildTasksLocation está definida, entonces se ajusta IsAvaloniaProject -->
+      <IsAvaloniaProject Condition=" '$(AvaloniaBuildTasksLocation)' != '' ">true</IsAvaloniaProject>
+    </PropertyGroup>
+
+  </Target>
+
+	<PropertyGroup>
+		<ShieldDependsOn>
+      $(ShieldDependsOn);
+      ResolveReferences;
+      ComputeIntermediateSatelliteAssemblies;
+      ResolveProjectReferences;
+      ResolveAssemblyReferences;
+    </ShieldDependsOn>
+	</PropertyGroup>
+
+  <Target
+		Name="ProtectWithShieldAvalonia"
+		AfterTargets="CompileAvaloniaXaml;AnalyzeWithSecrets"
+		Condition="Exists(@(IntermediateAssembly)) And $(DesignTimeBuild) != true"
+		DependsOnTargets="$(ShieldDependsOn)">
+
+    <Message Condition=" '$(IsAvaloniaProject)' == 'true' " Importance="high" Text="Avalonia detected, waiting for Avalonia compilation to protect with Shield." />
+
+    <Protect
+			Condition=" '$(IsAvaloniaProject)' == 'true' "
+			AssemblyPath="@(IntermediateAssembly)"
+      ProjectName="$(ProjectName)"
+			DebugSymbolsPath="@(_DebugSymbolsIntermediatePath)"
+			References="@(ReferencePath)"
+      Configuration="$(Configuration)">
+    </Protect>
+
+  </Target>
+  
+	<Target
+		Name="ProtectWithShield"
+		AfterTargets="AnalyzeWithSecrets;AfterCompile"
+		Condition="Exists(@(IntermediateAssembly)) And $(DesignTimeBuild) != true"
+		DependsOnTargets="$(ShieldDependsOn)">
+
+    <Protect
+      Condition=" '$(IsAvaloniaProject)' == 'false' "
+			AssemblyPath="@(IntermediateAssembly)"
+      ProjectName="$(ProjectName)"
+			DebugSymbolsPath="@(_DebugSymbolsIntermediatePath)"
+			References="@(ReferencePath)"
+      Configuration="$(Configuration)">
+    </Protect>
+    
+	</Target>
+
+</Project>

@@ -1,0 +1,17 @@
+{
+  "Name": "Тёмная",
+  "BackgroundColor": "#FF000010",
+  "AccentColor": "#FF33FFCC",
+  "BorderColor": "#FF33FFCC",
+  "TextColor": "#FFFFFFFF",
+  "FontSize": 14.0,
+  "NeonEnabled": true,
+  "NeonBorderColor": "#FF33FFCC",
+  "HeaderBackgroundColor": "#FF000020",
+  "DetailBackgroundColor": "#FF000015",
+  "CardBackgroundColor": "#FF00001A",
+  "CardBorderColor": "#FF33FFCC",
+  "ButtonBackgroundColor": "#FF033E29",
+  "ButtonForegroundColor": "#FF33FFCC",
+  "ButtonBorderColor": "#FF33FFCC"
+}

@@ -1,0 +1,69 @@
+﻿<Window x:Class="Курсач.ThemeEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        WindowStyle="None" AllowsTransparency="True"
+        Title="Редактор тем" Height="600" Width="310" Background="Transparent">
+    <Border BorderBrush="#33FFCC" BorderThickness="2"  Background="#000010" Padding="10">
+        <Grid>
+            <!-- Верхняя панель -->
+            <DockPanel Background="#000010" Margin="10,10,10,490">
+                <TextBlock Text="Редактор тем" Foreground="#33FFCC" FontSize="18" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="X" Click="Close_Click" Width="40" Height="40"/>
+                </StackPanel>
+            </DockPanel>
+
+            <!-- Основной контент -->
+            <Grid Margin="0,40,0,0">
+
+
+                <!-- Левая панель настроек -->
+                <StackPanel Grid.Column="0" Margin="10">
+                    <!-- Название темы -->
+                    <StackPanel Margin="0,0,0,10">
+                        <Label Content="Название темы:" Foreground="#33FFCC"/>
+                        <TextBox Text="{Binding CurrentTheme.Name}" Background="#000010" Foreground="#33FFCC" BorderBrush="#33FFCC"/>
+                    </StackPanel>
+
+                    <!-- Цвета -->
+                    <GroupBox Header="Цвета" Foreground="#33FFCC" BorderBrush="#33FFCC" Margin="0,0,0,10">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                                <Label Content="Фон:" Foreground="#33FFCC" Width="40"/>
+                                <xctk:ColorPicker SelectedColor="{Binding CurrentTheme.BackgroundColor}" Width="120"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                                <Label Content="Обводка:" Foreground="#33FFCC" Width="40"/>
+                                <xctk:ColorPicker SelectedColor="{Binding CurrentTheme.BorderColor}" Width="120"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                                <Label Content="Текст:" Foreground="#33FFCC" Width="40"/>
+                                <xctk:ColorPicker SelectedColor="{Binding CurrentTheme.TextColor}" Width="120"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <!-- Шрифт -->
+                    <GroupBox Header="Шрифт" Foreground="#33FFCC" BorderBrush="#33FFCC" Margin="0,0,0,10">
+                        <StackPanel>
+                            <Slider Minimum="10" Maximum="30" Value="{Binding CurrentTheme.FontSize}" TickFrequency="2" IsSnapToTickEnabled="True"/>
+                            <TextBlock Text="{Binding CurrentTheme.FontSize, StringFormat=F0}" Foreground="#33FFCC"/>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <!-- Неон -->
+                    <CheckBox Content="Включить неоновый эффект" IsChecked="{Binding CurrentTheme.NeonEnabled}" Foreground="#33FFCC"/>
+                </StackPanel>
+
+                <!-- Правая панель предпросмотра -->
+            </Grid>
+
+            <!-- Кнопки -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,386,0,71">
+                <Button Content="Сохранить" Click="Save_Click" Width="100" Margin="0,0,10,0"/>
+                <Button Content="Отмена" Click="Cancel_Click" Width="100"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Wpf.Themes.MaterialDesignColors</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Wpf.Themes.MaterialDesignColors.MaterialDesignColor">
+      <summary>The possible values for the Accent and Primary color of the MaterialDesign theme.</summary>
+    </member>
+  </members>
+</doc>

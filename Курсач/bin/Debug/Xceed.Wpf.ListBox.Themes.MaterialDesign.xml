@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Wpf.ListBox.Themes.MaterialDesign</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Wpf.ListBox.Themes.MaterialDesign.MaterialDesignResourceDictionary">
+      <summary>The ResourceDictionary used to theme the ListBox controls in MaterialDesign.</summary>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Wpf.AvalonDock.Themes.FluentDesign</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Wpf.AvalonDock.Themes.FluentDesign.FluentDesignResourceDictionary">
+      <summary>The ResourceDictionary used to theme the AvalonDock controls in FluentDesign.</summary>
+    </member>
+  </members>
+</doc>

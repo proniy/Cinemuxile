@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Wpf.Themes.MaterialDesign</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Wpf.Themes.MaterialDesign.MaterialDesignResourceDictionary">
+      <summary>The ResourceDictionary used to theme the basic controls in MaterialDesign.</summary>
+    </member>
+    <member name="P:Xceed.Wpf.Themes.MaterialDesign.MaterialDesignResourceDictionary.AccentColor">
+      <summary>Gets or sets the accent color used for the controls in MaterialDesign. The default setting is <em>DarkRed</em>.</summary>
+    </member>
+    <member name="P:Xceed.Wpf.Themes.MaterialDesign.MaterialDesignResourceDictionary.IsDark">
+      <summary>Gets or sets if the mode for the controls in MaterialDesign is dark or light. When set to <em>true</em>, the mode is dark; when set to <em>false</em>, the mode
+is light. The default setting is <em>true</em>.</summary>
+    </member>
+    <member name="P:Xceed.Wpf.Themes.MaterialDesign.MaterialDesignResourceDictionary.PrimaryColor">
+      <summary>Gets or sets the primary color used for the controls in MaterialDesign. The default is <em>DarkRed.</em></summary>
+    </member>
+  </members>
+</doc>

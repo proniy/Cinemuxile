@@ -1,0 +1,5 @@
+35gtanin908
+        //private const string ConnectionString = "Host=localhost;Port=5432;Database=video;Username=postgres;Password=4152;";
+        //private const string ConnectionString = "Host=localhost;Port=5432;Database=video;Username=postgres;Password=1;";
+        //private const string ConnectionString = "Host=bateam.ru;Port=5432;Database=video;Username=vova;Password=35gtanin908;";
+"705363e5-36e8-40f2-97fd-d242ef461b5a"

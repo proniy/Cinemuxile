@@ -895,14 +895,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Кинолюксия.exe" size="696304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Кинолюксия.exe" size="698352">
       <assemblyIdentity name="Кинолюксия" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>bAnJqxnTQzQlnQsmoDtbyLBzAnujkoSJJjBfBF5wZ8Y=</dsig:DigestValue>
+        <dsig:DigestValue>YbnRa/Pbu0H9BESEeDP23Y6tHCrHT5c83cCUz28ceNQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

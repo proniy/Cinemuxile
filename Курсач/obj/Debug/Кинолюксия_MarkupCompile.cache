@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Владимир\source\repos\Cinemuxile\Курсач\obj\Debug\
+C:\Users\Владимир\Documents\GitHub\Cinemuxile\Курсач\obj\Debug\
 Курсач
 none
 false
 DEBUG;TRACE
-C:\Users\Владимир\source\repos\Cinemuxile\Курсач\App.xaml
+C:\Users\Владимир\Documents\GitHub\Cinemuxile\Курсач\App.xaml
 12-691404260
-11623159127
-24-948929717
-75-940531644
+11562428480
+231424259458
+75-1311834888
 AdminWindow.xaml;ClientWindow.xaml;LoginWindow.xaml;MoodMovieWindow.xaml;RecoveryWindow.xaml;RegistrationWindow.xaml;SecureInputWindow.xaml;SupportRequestWindow.xaml;ThemeEditorWindow.xaml;UserEditWindow.xaml;VideoEditWindow.xaml;WebViewWindow.xaml;
 
-True
+False
 

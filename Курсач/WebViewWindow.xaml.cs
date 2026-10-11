@@ -68,26 +68,19 @@ namespace Курсач
                     return;
                 }
 
-                // Укажите путь к кэшу
                 string cacheFolder = Path.Combine(Path.GetTempPath(), "WebView2Cache");
 
                 try
                 {
-                    // Создаём опции окружения
                     var options = new CoreWebView2EnvironmentOptions();
                     options.AreBrowserExtensionsEnabled = true;
 
-                    // Инициализация WebView2 с указанием опций
                     var env = await CoreWebView2Environment.CreateAsync(null, cacheFolder, options);
-
-                    // Подписываемся на событие инициализации до EnsureCoreWebView2Async
                     webView2.CoreWebView2InitializationCompleted += _coreWebView2InitializationCompletedHandler;
-
                     await webView2.EnsureCoreWebView2Async(env);
 
                     _isInitialized = true;
 
-                    // Загружаем AdGuard как локальное расширение
                     if (Directory.Exists(ExtensionPath))
                     {
                         try
@@ -97,27 +90,40 @@ namespace Курсач
                         }
                         catch (Exception extEx)
                         {
-                            // Не блокируем загрузку видео из-за ошибки расширения
                             LogError($"Ошибка загрузки расширения: {extEx.Message}");
                         }
                     }
 
-                    // JS для разрешения полноэкранного режима
+                    // УЛУЧШЕННЫЙ JS: Разрешаем полноэкранный режим и убираем блокирующие оверлеи
                     try
                     {
                         await webView2.CoreWebView2.AddScriptToExecuteOnDocumentCreatedAsync(@"
-                            document.querySelectorAll('video').forEach(v => {
-                                v.setAttribute('allowfullscreen', '');
-                                v.setAttribute('allow', 'fullscreen');
-                            });
-                        ");
+                               document.querySelectorAll('video').forEach(v => {
+                                   v.setAttribute('allowfullscreen', '');
+                                   v.setAttribute('allow', 'fullscreen');
+                               });
+
+                               const removeOverlays = () => {
+                                   document.querySelectorAll('div').forEach(div => {
+                                       const style = window.getComputedStyle(div);
+                                       if ((style.position === 'fixed' || style.position === 'absolute') &&
+                                           parseInt(style.zIndex) > 100 &&
+                                           (style.backgroundColor === 'rgba(0, 0, 0, 0)' || style.backgroundColor ===
+ 'transparent')) {
+                                           div.style.pointerEvents = 'none';
+                                       }
+                                   });
+                               };
+
+                               window.addEventListener('DOMContentLoaded', removeOverlays);
+                               setInterval(removeOverlays, 2000);
+                           ");
                     }
                     catch (Exception jsEx)
                     {
                         LogError($"Ошибка выполнения JavaScript: {jsEx.Message}");
                     }
 
-                    // Загрузка видео
                     webView2.Source = uri;
                 }
                 catch (Exception initEx)
@@ -230,13 +236,26 @@ namespace Курсач
         {
             try
             {
-                // Блокируем открытие новых окон
-                e.Handled = true;
+                // Извлекаем URL
+                string uri = e.Uri;
+                if (string.IsNullOrEmpty(uri)) return;
 
-                // Открываем ссылку в системном браузере
+                // 1. Блокируем внутренние системные ссылки, которые вызывают ошибки Windows Store
+                if (uri.StartsWith("ms-windows-store:") || 
+                    uri.StartsWith("ms-about:") || 
+                    uri.StartsWith("about:") || 
+                    uri.StartsWith("chrome-extension:") || 
+                    uri.StartsWith("chrome://"))
+                {
+                    e.Handled = true; // Просто игнорируем, не передавая системе
+                    return;
+                }
+
+                // 2. Все остальные внешние ссылки открываем в системном браузере
+                e.Handled = true;
                 System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
                 {
-                    FileName = e.Uri,
+                    FileName = uri,
                     UseShellExecute = true
                 });
             }

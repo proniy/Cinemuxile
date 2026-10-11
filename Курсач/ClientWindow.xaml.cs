@@ -946,68 +946,45 @@ namespace Курсач
             {
                 // Устанавливаем начальное состояние для анимации
                 detailBorder.Opacity = 0;
-                detailScaleTransform.ScaleX = 0.7;
-                detailScaleTransform.ScaleY = 0.7;
-                detailTranslateTransform.Y = 150;
+                detailScaleTransform.ScaleX = 0.95;
+                detailScaleTransform.ScaleY = 0.95;
+                detailTranslateTransform.Y = 20;
                 detailBorder.Visibility = Visibility.Visible;
 
                 // Ждем обновления layout
                 await Task.Delay(10);
 
-                // Создаем сложную анимацию с несколькими эффектами
+                // Используем более легкие и плавные анимации
                 var opacityAnimation = new DoubleAnimation
                 {
                     To = 1,
-                    Duration = TimeSpan.FromSeconds(0.4),
-                    EasingFunction = new CircleEase { EasingMode = EasingMode.EaseOut }
+                    Duration = TimeSpan.FromSeconds(0.3),
+                    EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseOut }
                 };
 
                 var scaleXAnimation = new DoubleAnimation
                 {
                     To = 1,
-                    Duration = TimeSpan.FromSeconds(0.5),
-                    EasingFunction = new BackEase { EasingMode = EasingMode.EaseOut, Amplitude = 0.8 }
+                    Duration = TimeSpan.FromSeconds(0.3),
+                    EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseOut }
                 };
 
                 var scaleYAnimation = new DoubleAnimation
                 {
                     To = 1,
-                    Duration = TimeSpan.FromSeconds(0.5),
-                    EasingFunction = new BackEase { EasingMode = EasingMode.EaseOut, Amplitude = 0.8 }
+                    Duration = TimeSpan.FromSeconds(0.3),
+                    EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseOut }
                 };
 
                 var translateAnimation = new DoubleAnimation
                 {
                     To = 0,
-                    Duration = TimeSpan.FromSeconds(0.4),
-                    EasingFunction = new CircleEase { EasingMode = EasingMode.EaseOut }
-                };
-
-                // Добавляем эффект свечения с анимацией
-                var glowEffect = new DropShadowEffect
-                {
-                    Color = Color.FromArgb(255, 51, 255, 204),
-                    BlurRadius = 0,
-                    ShadowDepth = 0,
-                    Opacity = 0
-                };
-
-                detailBorder.Effect = glowEffect;
-
-                var glowBlurAnimation = new DoubleAnimation
-                {
-                    To = 30,
-                    Duration = TimeSpan.FromSeconds(0.4),
-                    EasingFunction = new CubicEase { EasingMode = EasingMode.EaseOut }
-                };
-
-                var glowOpacityAnimation = new DoubleAnimation
-                {
-                    To = 0.5,
                     Duration = TimeSpan.FromSeconds(0.3),
-                    AutoReverse = true,
-                    EasingFunction = new CubicEase { EasingMode = EasingMode.EaseOut }
+                    EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseOut }
                 };
+
+                // Убираем тяжелый эффект свечения при открытии, оставляем только плавный переход
+                detailBorder.Effect = null;
 
                 // Запускаем анимации
                 detailBorder.BeginAnimation(OpacityProperty, opacityAnimation);
@@ -1015,11 +992,8 @@ namespace Курсач
                 detailScaleTransform.BeginAnimation(ScaleTransform.ScaleYProperty, scaleYAnimation);
                 detailTranslateTransform.BeginAnimation(TranslateTransform.YProperty, translateAnimation);
 
-                glowEffect.BeginAnimation(DropShadowEffect.BlurRadiusProperty, glowBlurAnimation);
-                glowEffect.BeginAnimation(DropShadowEffect.OpacityProperty, glowOpacityAnimation);
-
-                // Добавляем анимацию для содержимого панели
-                await Task.Delay(200);
+                // Ускоряем появление контента
+                await Task.Delay(100);
                 await AnimateContentAppearance();
 
                 isDetailVisible = true;

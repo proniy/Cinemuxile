@@ -1,4 +1,5 @@
 Ссылка на опрос:https://docs.google.com/forms/d/e/1FAIpQLScdApBOfrrCylLRPwPLSGpr_6bIxRJW7-cldCFSdCdm5uQWHQ/viewform?usp=publish-editor
+
 Ссылка на результаты опроса: https://docs.google.com/spreadsheets/d/15DE1VLiDi9zIcS8VNVpRR4tVKIvRWOWkyMHNe9Q-uMY/edit?gid=1524503113#gid=1524503113
 🎬 Кинолюксия - Система управления видеотекой
 Проект представляет собой полнофункциональное приложение для управления видеотекой с разграничением прав доступа для администраторов и клиентов, разработанное на WPF с использованием PostgreSQL.
